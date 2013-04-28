@@ -1,0 +1,1 @@
+insert snippets_jee_jpa_openjpa_a1.customer (id, name, age) values (1, 'mary', 30)

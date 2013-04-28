@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:georss="http://www.georss.org/georss" version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:twitter="http://api.twitter.com">
+  <channel>
+      <title>Twitter / seansan</title>
+      <link>http://twitter.com/seansan</link>
+      <atom:link type="application/rss+xml" rel="self" href="http://twitter.com/statuses/user_timeline/18264960.rss"/>
+      <description>Twitter updates from Sean Ho / seansan.</description>
+      <language>en-us</language>
+      <ttl>40</ttl>
+      <item>
+        <title>seansan: Win8 RP and http://t.co/oTceKM1U 2012 RC are so much smoother than previous versions. Less painful developing metro app.</title>
+        <description>seansan: Win8 RP and http://t.co/oTceKM1U 2012 RC are so much smoother than previous versions. Less painful developing metro app.</description>
+        <pubDate>Tue, 05 Jun 2012 08:24:54 +0000</pubDate>
+        <guid>http://twitter.com/seansan/statuses/209923741617094656</guid>
+        <link>http://twitter.com/seansan/statuses/209923741617094656</link>
+        <twitter:source>&lt;a href=&quot;http://tapbots.com/tweetbot&quot; rel=&quot;nofollow&quot;&gt;Tweetbot for iOS&lt;/a&gt;</twitter:source>
+        <twitter:place/>
+      </item>
+      <item>
+        <title>seansan: RT @woodhull: Also, a ghetto. No good ways to use Sass/Less except a commercial visual studio plugin or node.js via IPC.</title>
+        <description>seansan: RT @woodhull: Also, a ghetto. No good ways to use Sass/Less except a commercial visual studio plugin or node.js via IPC.</description>
+        <pubDate>Tue, 29 May 2012 12:09:30 +0000</pubDate>
+        <guid>http://twitter.com/seansan/statuses/207443548755333120</guid>
+        <link>http://twitter.com/seansan/statuses/207443548755333120</link>
+        <twitter:source>&lt;a href=&quot;http://tapbots.com/tweetbot&quot; rel=&quot;nofollow&quot;&gt;Tweetbot for iOS&lt;/a&gt;</twitter:source>
+        <twitter:place/>
+      </item>
+      <item>
+        <title>seansan: @waterlou @siuying I feel like ORM is an overkill on mobile client, a client document store works better, esp for data consumption</title>
+        <description>seansan: @waterlou @siuying I feel like ORM is an overkill on mobile client, a client document store works better, esp for data consumption</description>
+        <pubDate>Tue, 29 May 2012 12:08:07 +0000</pubDate>
+        <guid>http://twitter.com/seansan/statuses/207443199470473216</guid>
+        <link>http://twitter.com/seansan/statuses/207443199470473216</link>
+        <twitter:source>&lt;a href=&quot;http://twitter.com/#!/download/ipad&quot; rel=&quot;nofollow&quot;&gt;Twitter for iPad&lt;/a&gt;</twitter:source>
+        <twitter:place/>
+      </item>
+      <item>
+        <title>seansan: A classic humor movie lead by Steve Ballmer RT @hackernewsbot: Windows Live is dead... http://t.co/EXQGWyJS</title>
+        <description>seansan: A classic humor movie lead by Steve Ballmer RT @hackernewsbot: Windows Live is dead... http://t.co/EXQGWyJS</description>
+        <pubDate>Mon, 28 May 2012 07:14:31 +0000</pubDate>
+        <guid>http://twitter.com/seansan/statuses/207006925274095617</guid>
+        <link>http://twitter.com/seansan/statuses/207006925274095617</link>
+        <twitter:source>&lt;a href=&quot;http://tapbots.com/tweetbot&quot; rel=&quot;nofollow&quot;&gt;Tweetbot for iOS&lt;/a&gt;</twitter:source>
+        <twitter:place/>
+      </item>
+      <item>
+        <title>seansan: @Justin_Chow &#21322;&#24180;&#21862;&#65292;&#19979;&#27425;&#21448;&#21487;&#20197;&#30001;&#38957;&#30535;&#36942;&#12290;</title>
+        <description>seansan: @Justin_Chow &#21322;&#24180;&#21862;&#65292;&#19979;&#27425;&#21448;&#21487;&#20197;&#30001;&#38957;&#30535;&#36942;&#12290;</description>
+        <pubDate>Sat, 26 May 2012 14:53:11 +0000</pubDate>
+        <guid>http://twitter.com/seansan/statuses/206397576134664192</guid>
+        <link>http://twitter.com/seansan/statuses/206397576134664192</link>
+        <twitter:source>&lt;a href=&quot;http://tapbots.com/tweetbot&quot; rel=&quot;nofollow&quot;&gt;Tweetbot for iOS&lt;/a&gt;</twitter:source>
+        <twitter:place/>
+      </item>
+  </channel>
+</rss>

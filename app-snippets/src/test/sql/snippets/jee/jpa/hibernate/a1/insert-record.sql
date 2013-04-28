@@ -1,0 +1,1 @@
+insert snippets_jee_jpa_hibernate_a1.person (id, firstname) values (1, 'mary')

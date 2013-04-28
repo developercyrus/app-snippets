@@ -1,0 +1,7 @@
+<dept>
+    <deptname>nursing</deptname>
+    <employees>
+        <employee>Peter</employee>  
+        <employee>Mary</employee>  
+    </employees>   
+</dept>

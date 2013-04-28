@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE family SYSTEM "target/test-classes/snippets/xml/dtd/external/a1/family.dtd">
+<family lastname="Smith" >
+    <member memberid="m1" >Sarah</member>
+    <member memberid="m2" >Bob</member>
+    <member dad="m2" memberid="m3" mom="m1" >Joanne</member>
+    <member dad="m2" memberid="m4" mom="m1" >Jim</member>
+</family>

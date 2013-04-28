@@ -1,0 +1,1 @@
+insert snippets_framework_orm_hibernate_a1.person (name, age) values ('sam', 31)
