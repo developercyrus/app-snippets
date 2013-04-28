@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<field id="1" >
+    <folderFieldID>1</folderFieldID>
+    <locale id="3" >
+        <description>My Custom Radio Button</description>
+        <header>header3</header>
+        <name>RB</name>
+    </locale>
+    <locale id="4" >
+        <description>My Custom TextBox</description>
+        <header>header4</header>
+        <name>TB</name>
+    </locale>
+    <scope>ExternalUse</scope>
+</field>

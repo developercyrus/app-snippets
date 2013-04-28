@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<!DOCTYPE hibernate-configuration PUBLIC
+    "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+    "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>
+    <session-factory>
+        <property name="show_sql">true</property>
+        <property name="dialect">org.hibernate.dialect.MySQLDialect</property>
+        <property name="connection.driver_class">com.mysql.jdbc.Driver</property>
+        <property name="connection.url">jdbc:mysql://localhost/snippets_framework_orm_hibernate_hibernate3_maven_plugin_a1</property>
+        <property name="connection.username">root</property>
+        <property name="connection.password"></property>
+        
+        <mapping resource="snippets/framework/orm/hibernate/hibernate3/maven/plugin/a1/generated/Person.hbm.xml" />        
+    </session-factory>
+</hibernate-configuration>

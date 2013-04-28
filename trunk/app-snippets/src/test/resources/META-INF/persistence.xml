@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence xmlns="http://java.sun.com/xml/ns/persistence"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd"
+    version="2.0">
+
+    <persistence-unit name="snippets.jee.jpa.hibernate.a1.Person" transaction-type="RESOURCE_LOCAL">
+        <provider>org.hibernate.ejb.HibernatePersistence</provider>
+        <class>snippets.jee.jpa.hibernate.a1.Person</class>
+        <exclude-unlisted-classes>false</exclude-unlisted-classes>
+        <validation-mode>NONE</validation-mode>
+        <properties>
+            <!-- MySQL is using zwamp 1.1.2 -->
+            <property name="hibernate.dialect" value="org.hibernate.dialect.MySQLDialect" />
+            <property name="hibernate.connection.url" value="jdbc:mysql://localhost/snippets_jee_jpa_hibernate_a1" />
+            <property name="hibernate.connection.driver_class" value="com.mysql.jdbc.Driver" />
+            <property name="hibernate.connection.username" value="root" />
+            <property name="hibernate.connection.password" value="" />
+            <property name="hibernate.show_sql" value="true" />
+            <property name="hibernate.format_sql" value="false" />
+        </properties>
+    </persistence-unit>
+    
+    <persistence-unit name="snippets.jee.jpa.openjpa.a1.Customer" transaction-type="RESOURCE_LOCAL">
+        <provider>org.apache.openjpa.persistence.PersistenceProviderImpl</provider>
+        <class>snippets.jee.jpa.openjpa.a1.Customer</class>
+        <exclude-unlisted-classes>false</exclude-unlisted-classes>
+        <validation-mode>NONE</validation-mode>
+        <properties>
+            <!-- MySQL is using zwamp 1.1.2 -->
+            <property name="openjpa.ConnectionDriverName" value="com.mysql.jdbc.Driver" />
+            <property name="openjpa.ConnectionURL" value="jdbc:mysql://localhost/snippets_jee_jpa_openjpa_a1" /> 
+            <property name="openjpa.ConnectionUserName" value="root" />
+            <property name="openjpa.ConnectionPassword" value="" />
+            <property name="hibernate.show_sql" value="true"/>
+            <property name="hibernate.format_sql" value="false"/>
+        </properties>
+    </persistence-unit>
+</persistence>

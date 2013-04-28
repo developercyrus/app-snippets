@@ -1,0 +1,9 @@
+for $fid in (1 to 4)  
+    let $cField := doc/resume[@id="1"]/field[@id=$fid] 
+    let $pField := doc/resume[@id="2"]/field[@id=$fid]  
+    return 
+        if ($cField = $pField) then ( 
+            $cField 
+        )   
+        else () 
+           

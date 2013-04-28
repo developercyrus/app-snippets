@@ -1,0 +1,1 @@
+insert snippets_jdk_jdbc_a1.person (id, firstname) values (1, 'sam')

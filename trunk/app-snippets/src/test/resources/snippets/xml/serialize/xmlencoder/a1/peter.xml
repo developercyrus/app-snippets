@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.6.0_25" class="java.beans.XMLDecoder"> 
+    <object class="snippets.xml.serialize.xmlencoder.a1.Person"> 
+        <void property="firstName"> 
+            <string>Peter</string> 
+        </void> 
+        <void property="male"> 
+            <boolean>true</boolean> 
+        </void> 
+        <void property="phones"> 
+            <object class="java.util.ArrayList"> 
+                <void method="add"> 
+                    <string>iphone</string> 
+                </void> 
+                <void method="add"> 
+                    <string>android</string> 
+                </void> 
+            </object> 
+        </void> 
+    </object> 
+</java> 

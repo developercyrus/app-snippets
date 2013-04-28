@@ -1,0 +1,4 @@
+for $doc in collection('@path')
+    where $doc/dept/deptname = 'engineering' 
+    return count($doc/dept/employees/employee)
+    

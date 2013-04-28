@@ -1,0 +1,1 @@
+insert snippets_framework_orm_hibernate_hibernate3_maven_plugin_a1.person (name, age) values ('john', 42)

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<field id="1" >
+    <folderFieldID>1</folderFieldID>
+    <locale id="1" >
+        <description>My Custom Multiple Choice</description>
+        <header></header>
+        <name>MC</name>
+    </locale>
+    <locale id="2" >
+        <description>我的自選多項選擇</description>
+        <header></header>
+        <name>多項選擇</name>
+    </locale>
+    <scope>InternalUse</scope>
+</field>

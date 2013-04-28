@@ -1,0 +1,1 @@
+insert snippets_framework_mock_mockito_a2.person (name) values ('sam')

@@ -1,0 +1,8 @@
+<dept>
+    <deptname>engineering</deptname>
+    <employees>
+        <employee>Mirage</employee>  
+        <employee>Mervyn</employee>  
+        <employee>Lucy</employee>  
+    </employees> 
+</dept>

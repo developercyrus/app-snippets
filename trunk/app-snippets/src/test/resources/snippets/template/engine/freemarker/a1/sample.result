@@ -1,0 +1,6 @@
+freemarker template test:
+string test-----------Small John-----------3,333-----------products/redmouse.html-----------red mouse
+condition test-----------
+    list iterator-----------
+            5
+            4
