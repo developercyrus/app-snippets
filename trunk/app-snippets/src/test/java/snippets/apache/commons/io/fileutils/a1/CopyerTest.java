@@ -1,4 +1,4 @@
-package snippets.apache.commons.io.fileutils;
+package snippets.apache.commons.io.fileutils.a1;
 
 import static org.junit.Assert.assertEquals;
 
@@ -8,6 +8,8 @@ import org.joda.time.DateTime;
 import org.joda.time.format.DateTimeFormat;
 import org.joda.time.format.DateTimeFormatter;
 import org.junit.Test;
+
+import snippets.apache.commons.io.fileutils.a1.Copyer;
 
 public class CopyerTest {    
     @Test
