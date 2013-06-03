@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
 "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
-<!-- Generated Apr 1, 2013 9:39:22 AM by Hibernate Tools 3.2.4.GA -->
+<!-- Generated Jun 4, 2013 1:46:57 AM by Hibernate Tools 3.2.4.GA -->
 <hibernate-mapping>
     <class name="snippets.framework.orm.hibernate.hibernate3.maven.plugin.o2m.a1.generated.Phone" table="phone"
     catalog="snippets_framework_orm_hibernate_hibernate3_maven_plugin_o2m_a1">
