@@ -851,8 +851,13 @@
             <groupId>commons-vfs</groupId>
             <artifactId>commons-vfs</artifactId>
             <version>1.0</version>
+        </dependency>                           
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-jci-core</artifactId>
+            <version>1.0</version>
         </dependency>
-                                
+                                            
         
         <dependency>
             <groupId>org.hamcrest</groupId>
