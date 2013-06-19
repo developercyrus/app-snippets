@@ -1,25 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <dict num="219" id="219" name="219">
-	<key>succeed</key>
-	<ps>səkˈsi:d</ps>
-	<pron>
-		http://res.iciba.com/resource/amp3/0/0/e7/fe/e7fed1944be880f14a7335eac65e2cc2.mp3
-	</pron>
-	<pos>
-	   vi.
-    </pos>
-	<acceptation>
-	       成功；继承；
-    </acceptation>
-	<pos>
-	   vt.
-    </pos>
-	<acceptation>
-	       继承， 继任， 继位；随……之后；
-    </acceptation>
-	<orig>
-	   Apparently she did not succeed.
-    </orig>
-	<trans>
-	       看样子她没有成功。
-    </trans>
+    <key>succeed</key>
+    <ps>sək'si:d</ps>
+    <pron>http://res.iciba.com/resource/amp3/oxford/0/39/c2/39c28313feac34fbcce0d606ce7dfaed.mp3</pron>
+    <ps>səkˈsid</ps>
+    <pron>http://res.iciba.com/resource/amp3/1/0/e7/fe/e7fed1944be880f14a7335eac65e2cc2.mp3</pron>
+    <pos>vi.</pos>
+    <acceptation>成功；继承；</acceptation>
+    <pos>vt.</pos>
+    <acceptation>继承，继任，继位；随…之后；</acceptation>
+    <sent>
+        <orig>The discovery rate for wildcat wells in the Denver basin has changed radically with time.</orig>
+        <trans>丹佛盆地的探井发现率随时间变化得很快。</trans>
+    </sent>
+    <sent>
+        <orig>Children under 12 years old the same with parents, without extra bed are of charge.</orig>
+        <trans>儿童十二岁以下与父母同房不需加床，不另收费。</trans>
+    </sent>
+    <sent>
+        <orig>The solution that the Volvo engineers came up with was WHIPS (Whiplash Protection System).</orig>
+        <trans>Volvo工程师所提出的解决方案是whips（头颈部保护系统）。</trans>
+    </sent>
+    <sent>
+        <orig>May God strengthen our hands for the good work ahead-and always, always bless our America.</orig>
+        <trans>愿上帝给我们强有力的双手，做好未来的工作——并且，永远，永远保佑我们美国。</trans>
+    </sent>
+    <sent>
+        <orig>He disappointeth the devices of the crafty, so that their hands cannot perform their enterprise.</orig>
+        <trans>12破坏狡猾人的计谋，使他们所谋的不得成就。</trans>
+    </sent>
 </dict>
