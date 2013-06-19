@@ -12,7 +12,7 @@ import org.junit.Test;
 
 public class ClientTest {
     @Test
-    public void test() throws IOException, XPathExpressionException {
+    public void test1() throws IOException, XPathExpressionException {
         String path = this.getClass().getResource("iciba.success.xml").getFile();
         BufferedReader br = new BufferedReader(new FileReader(path));
         String line, xmlStr = new String();
@@ -20,8 +20,25 @@ public class ClientTest {
             xmlStr = xmlStr + line;
         }
         
-        String expected = "http://res.iciba.com/resource/amp3/0/0/e7/fe/e7fed1944be880f14a7335eac65e2cc2.mp3";
-        String actual = Client.extract(xmlStr, "/dict/pron").trim();
+        String expected = "succeed";
+        String actual = Client.extract(xmlStr, "/dict/key").trim();
+        
+        System.out.println(actual);
+        assertEquals(expected, actual);
+    }
+    
+    @Test
+    public void test2() throws IOException, XPathExpressionException {
+        String path = this.getClass().getResource("iciba.success.xml").getFile();
+        BufferedReader br = new BufferedReader(new FileReader(path));
+        String line, xmlStr = new String();
+        while ((line = br.readLine()) != null) {
+            xmlStr = xmlStr + line;
+        }
+        
+        String expected = "May God strengthen our hands for the good work ahead-and always, always bless our America.";
+        String actual = Client.extract(xmlStr, "/dict/sent[4]/orig").trim();
+        
         System.out.println(actual);
         assertEquals(expected, actual);
     }
