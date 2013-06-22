@@ -15,9 +15,18 @@ public class CharsetUtil {
         Set<String> keySet = availableCharsets.keySet();
         return keySet.contains(key);
     }
+    
+    public void list() {
+        Set<String> keySet = availableCharsets.keySet();
+        System.out.println(keySet.toString().replaceAll(", |[\\[\\]]", "\n"));
+        
+        System.out.println(keySet.toString());
+    }
         
     public static void main(String[] args) {
         CharsetUtil c = new CharsetUtil(); 
         System.out.println(c.isAvailable("x-UTF-16LE-BOM"));
+        
+        c.list();
     }
 }
