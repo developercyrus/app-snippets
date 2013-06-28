@@ -19,10 +19,11 @@ public class RSSReaderWithoutXPath {
         VTDNav vn = vg.getNav();
         AutoPilot ap = new AutoPilot(vn);
         // select name space here; * matches any local name
-        ap.selectElementNS("http://purl.org/dc/elements/1.1/","*"); 
+        //ap.selectElementNS("http://purl.org/dc/elements/1.1/","*"); 
+        ap.selectElementNS("*","*");
         int count = 0;
         while(ap.iterate()){
-            System.out.print(""+vn.getCurrentIndex()+"  ");     
+            System.out.print(""+vn.getCurrentIndex()+"  "+vn.getCurrentDepth()+"  ");     
             System.out.print("Element name ==> "+vn.toString(vn.getCurrentIndex()));
             int t = vn.getText(); // get the index of the text (char data or CDATA)
             if (t!=-1)
