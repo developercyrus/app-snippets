@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:georss="http://www.georss.org/georss">
+    <updated>2013-06-28T04:17:12Z</updated>
+    <title>USGS M 2.5+ Earthquakes</title>
+    <subtitle>Real-time, worldwide earthquake list for the past 7 days</subtitle>
+    <link rel="self" href="http://earthquake.usgs.gov/earthquakes/catalogs/7day-M2.5.xml" />
+    <link href="http://earthquake.usgs.gov/earthquakes/" />
+    <author>
+        <name>U.S. Geological Survey</name>
+    </author>
+    <id>http://earthquake.usgs.gov/</id>
+    <icon>/favicon.ico</icon>
+    <entry>
+        <id>urn:earthquake-usgs-gov:nc:72016695</id>
+        <title>M 3.9, Central California</title>
+        <updated>2013-06-28T03:52:39Z</updated>
+        <link rel="alternate" type="text/html" href="http://earthquake.usgs.gov/earthquakes/recenteqsww/Quakes/nc72016695.php" />
+        <link rel="related" type="application/cap+xml" href="http://earthquake.usgs.gov/earthquakes/catalogs/cap/nc72016695" />
+        <summary type="html"><![CDATA[<img src="http://earthquake.usgs.gov/images/globes/35_-120.jpg" alt="36.757&#176;N 121.470&#176;W" align="left" hspace="20" /><p>Friday, June 28, 2013 03:52:39 UTC<br>Thursday, June 27, 2013 08:52:39 PM at epicenter</p><p><strong>Depth</strong>: 6.90 km (4.29 mi)</p>]]></summary>
+        <georss:point>36.7567 -121.4702</georss:point>
+        <georss:elev>-6900</georss:elev>
+        <category label="Age" term="Past hour" />
+    </entry>
+    <entry>
+        <id>urn:earthquake-usgs-gov:us:b000i2ag</id>
+        <title>M 4.6, offshore Coquimbo, Chile</title>
+        <updated>2013-06-28T02:08:14Z</updated>
+        <link rel="alternate" type="text/html" href="http://earthquake.usgs.gov/earthquakes/recenteqsww/Quakes/usb000i2ag.php" />
+        <link rel="related" type="application/cap+xml" href="http://earthquake.usgs.gov/earthquakes/catalogs/cap/usb000i2ag" />
+        <summary type="html"><![CDATA[<img src="http://earthquake.usgs.gov/images/globes/-30_-70.jpg" alt="29.795&#176;S 71.671&#176;W" align="left" hspace="20" /><p>Friday, June 28, 2013 02:08:14 UTC<br>Thursday, June 27, 2013 10:08:14 PM at epicenter</p><p><strong>Depth</strong>: 8.50 km (5.28 mi)</p>]]></summary>
+        <georss:point>-29.7950 -71.6711</georss:point>
+        <georss:elev>-8500</georss:elev>
+        <category label="Age" term="Past day" />
+    </entry>
+    <entry>
+        <id>urn:earthquake-usgs-gov:ak:10746872</id>
+        <title>M 2.7, Kenai Peninsula, Alaska</title>
+        <updated>2013-06-28T00:32:06Z</updated>
+        <link rel="alternate" type="text/html" href="http://earthquake.usgs.gov/earthquakes/recenteqsww/Quakes/ak10746872.php" />
+        <summary type="html"><![CDATA[<img src="http://earthquake.usgs.gov/images/globes/60_-150.jpg" alt="60.667&#176;N 151.182&#176;W" align="left" hspace="20" /><p>Friday, June 28, 2013 00:32:06 UTC<br>Thursday, June 27, 2013 04:32:06 PM at epicenter</p><p><strong>Depth</strong>: 50.20 km (31.19 mi)</p>]]></summary>
+        <georss:point>60.6668 -151.1824</georss:point>
+        <georss:elev>-50200</georss:elev>
+        <category label="Age" term="Past day" />
+    </entry>
+</feed>
