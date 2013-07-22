@@ -15,8 +15,6 @@ import org.custommonkey.xmlunit.XMLUnit;
 import org.junit.Test;
 import org.xml.sax.SAXException;
 
-import snippets.xml.xsl.a1.XSLTransformer;
-
 public class XSLTransformerTest {
     @Test
     public void testbyString() throws TransformerException, SAXException, IOException {
@@ -24,7 +22,7 @@ public class XSLTransformerTest {
                                 "<?xml version=\"1.0\" encoding=\"UTF-8\"?>", 
                                 "<resume>",
                                     "<field1>Cyrus</field1>",
-                                    "<field2>Lan</field2>",
+                                    "<field2>Pam</field2>",
                                 "</resume>"
                             );
         String xslStr =     String.format("%s%s%s%s%s%s%s%s%s%s%s%s%s%s%s%s%s%s%s",
@@ -60,7 +58,7 @@ public class XSLTransformerTest {
                                             "</tr>",
                                             "<tr>",
                                                 "<td>Last Name</td>",
-                                                "<td>Lan</td>",
+                                                "<td>Pam</td>",
                                             "</tr>",
                                         "</table>",
                                     "</body>",
