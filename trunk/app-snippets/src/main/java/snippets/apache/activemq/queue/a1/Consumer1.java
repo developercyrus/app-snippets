@@ -13,7 +13,7 @@ import javax.jms.TextMessage;
 import org.apache.activemq.ActiveMQConnectionFactory;
 
 public class Consumer1 {
-    private String subject = "TestQueue";
+    private final String subject = "TestQueue";
     
     private Connection connection = null;
     private Destination destination = null;
@@ -57,4 +57,5 @@ public class Consumer1 {
         session.close();  
         connection.close();
     }
+    
 }
