@@ -19,8 +19,7 @@ import org.xml.sax.InputSource;
 import org.xml.sax.SAXException;
 
 public class ClientTest {
-    
-    
+        
     @Test
     public void test2() throws IOException, XPathExpressionException, ParserConfigurationException, SAXException {
         String path = this.getClass().getResource("iciba.success.xml").getFile();       
