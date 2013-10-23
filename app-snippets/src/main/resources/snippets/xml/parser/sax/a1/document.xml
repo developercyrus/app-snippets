@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<DOC fileId="WSJ_0099.MRG" sectionId="00">
+    <S1 sentenceId="0">
+        <S>
+            <NP-SBJ>
+                <NP>
+                    <NNP word="Zenith"/>
+                    <NNP word="Data"/>
+                    <NNPS word="Systems"/>
+                    <NNP word="Corp."/>
+                </NP>
+                <COMMA word=","/>
+                <NP>
+                    <NP>
+                        <DT word="a"/>
+                        <NN word="subsidiary"/>
+                    </NP>
+                    <PP>
+                        <IN word="of"/>
+                        <NP>
+                            <NNP word="Zenith"/>
+                            <NNP word="Electronics"/>
+                            <NNP word="Corp."/>
+                        </NP>
+                    </PP>
+                </NP>
+                <COMMA word=","/>
+            </NP-SBJ>
+            <VP>
+                <VBD word="received"/>
+                <NP>
+                    <NP>
+                        <DT word="a"/>
+                        <ADJP>
+                            <QP>
+                                <DOLLARSIGN word="$"/>
+                                <CD word="534"/>
+                                <CD word="million"/>
+                            </QP>
+                        </ADJP>
+                        <NNP word="Navy"/>
+                        <NN word="contract"/>
+                    </NP>
+                    <PP>
+                        <IN word="for"/>
+                        <NP>
+                            <NP>
+                                <NN word="software"/>
+                                <CC word="and"/>
+                                <NNS word="services"/>
+                            </NP>
+                            <PP>
+                                <IN word="of"/>
+                                <NP>
+                                    <NNS word="microcomputers"/>
+                                </NP>
+                            </PP>
+                            <PP-TMP>
+                                <IN word="over"/>
+                                <NP>
+                                    <DT word="an"/>
+                                    <JJ word="84-month"/>
+                                    <NN word="period"/>
+                                </NP>
+                            </PP-TMP>
+                        </NP>
+                    </PP>
+                </NP>
+            </VP>
+            <FULLSTOP word="."/>
+        </S>
+    </S1>
+</DOC>
+
