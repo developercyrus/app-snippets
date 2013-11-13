@@ -10,8 +10,7 @@ import org.apache.poi.hssf.usermodel.HSSFWorkbook;
 import org.apache.poi.poifs.filesystem.POIFSFileSystem;
 
 public class Protector {
-    public void setPassword(String path, String password) throws IOException {
-
+    public void lock(String path, String password) throws IOException {
         FileInputStream fileInput = new FileInputStream(path);           
         BufferedInputStream bufferInput = new BufferedInputStream(fileInput);      
         POIFSFileSystem poiFileSystem = new POIFSFileSystem(bufferInput);  
