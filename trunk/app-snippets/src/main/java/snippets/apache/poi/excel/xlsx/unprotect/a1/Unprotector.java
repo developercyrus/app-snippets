@@ -21,7 +21,14 @@ public class Unprotector {
         
         EncryptionInfo info = new EncryptionInfo(poiFileSystem);
         Decryptor d = Decryptor.getInstance(info);
-        d.verifyPassword(password);         
+        
+        if (password != null) {
+            d.verifyPassword(password);
+        }
+        else {
+            d.verifyPassword(Decryptor.DEFAULT_PASSWORD);
+        }
+        
         InputStream dataStream = d.getDataStream(poiFileSystem);
         
         XSSFWorkbook wb = new XSSFWorkbook(dataStream);
