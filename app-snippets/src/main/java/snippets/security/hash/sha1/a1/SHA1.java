@@ -1,11 +1,11 @@
-package snippets.security.hash.sha256.a1;
+package snippets.security.hash.sha1.a1;
 
 import java.security.MessageDigest;
 
-public class SHA256 {
+public class SHA1 {
 
     public static String encrypt(String str) {
-        return encrypt(str, "SHA-256");
+        return encrypt(str, "SHA-1");
     }
 
     public static String encrypt(String str, String encType) {
@@ -33,7 +33,7 @@ public class SHA256 {
     }
     
     public static void main(String[] args) {
-        String actual = SHA256.encrypt("Hello World");
+        String actual = SHA1.encrypt("Hello World");
         System.out.println(actual);
     }
 }

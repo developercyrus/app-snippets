@@ -33,7 +33,7 @@ public class MD5 {
     }
     
     public static void main(String[] args) {
-        String actual = MD5.encrypt("123");
+        String actual = MD5.encrypt("Hello World");
         System.out.println(actual);
     }
 }
