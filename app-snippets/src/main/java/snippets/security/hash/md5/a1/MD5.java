@@ -31,4 +31,9 @@ public class MD5 {
         }
         return hexString.toString();
     }
+    
+    public static void main(String[] args) {
+        String actual = MD5.encrypt("123");
+        System.out.println(actual);
+    }
 }
