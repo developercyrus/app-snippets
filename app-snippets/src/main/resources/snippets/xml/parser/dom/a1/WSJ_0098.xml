@@ -1,0 +1,1570 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<DOC fileId="WSJ_0098.MRG" sectionId="00">
+    <S1 id="1" level="1" pid="0" sentenceId="0">
+        <S id="2" level="2" pid="1">
+            <NP-SBJ-1 id="3" level="3" pid="2">
+                <DT id="4" level="4" pid="3">The</DT>
+                <NNP id="5" level="4" pid="3">House</NNP>
+            </NP-SBJ-1>
+            <VP id="6" level="3" pid="2">
+                <VBD id="7" level="4" pid="6">voted</VBD>
+                <S id="8" level="4" pid="6">
+                    <VP id="11" level="5" pid="8">
+                        <TO id="12" level="6" pid="11">to</TO>
+                        <VP id="13" level="6" pid="11">
+                            <VB id="14" level="7" pid="13">boost</VB>
+                            <NP id="15" level="7" pid="13">
+                                <DT id="16" level="8" pid="15">the</DT>
+                                <JJ id="17" level="8" pid="15">federal</JJ>
+                                <JJ id="18" level="8" pid="15">minimum</JJ>
+                                <NN id="19" level="8" pid="15">wage</NN>
+                            </NP>
+                        </VP>
+                    </VP>
+                </S>
+                <PP-TMP id="20" level="4" pid="6">
+                    <IN id="21" level="5" pid="20">for</IN>
+                    <NP id="22" level="5" pid="20">
+                        <NP id="23" level="6" pid="22">
+                            <DT id="24" level="7" pid="23">the</DT>
+                            <JJ id="25" level="7" pid="23">first</JJ>
+                            <NN id="26" level="7" pid="23">time</NN>
+                        </NP>
+                        <PP-TMP id="27" level="6" pid="22">
+                            <IN id="28" level="7" pid="27">since</IN>
+                            <NP id="29" level="7" pid="27">
+                                <JJ id="30" level="8" pid="29">early</JJ>
+                                <CD id="31" level="8" pid="29">1981</CD>
+                            </NP>
+                        </PP-TMP>
+                    </NP>
+                </PP-TMP>
+                <COMMA id="32" level="4" pid="6">,</COMMA>
+                <S-ADV id="33" level="4" pid="6">
+                    <VP id="36" level="5" pid="33">
+                        <VBG id="37" level="6" pid="36">casting</VBG>
+                        <NP id="38" level="6" pid="36">
+                            <NP id="39" level="7" pid="38">
+                                <DT id="40" level="8" pid="39">a</DT>
+                                <JJ id="41" level="8" pid="39">solid</JJ>
+                                <CD id="42" level="8" pid="39">382-37</CD>
+                                <NN id="43" level="8" pid="39">vote</NN>
+                            </NP>
+                            <PP id="44" level="7" pid="38">
+                                <IN id="45" level="8" pid="44">for</IN>
+                                <NP id="46" level="8" pid="44">
+                                    <NP id="47" level="9" pid="46">
+                                        <DT id="48" level="10" pid="47">a</DT>
+                                        <NN id="49" level="10" pid="47">compromise</NN>
+                                        <NN id="50" level="10" pid="47">measure</NN>
+                                    </NP>
+                                    <VP id="51" level="9" pid="46">
+                                        <VBN id="52" level="10" pid="51">backed</VBN>
+                                        <NP id="53" level="10" pid="51"/>
+                                        <PP id="55" level="10" pid="51">
+                                            <IN id="56" level="11" pid="55">by</IN>
+                                            <NP-LGS id="57" level="11" pid="55">
+                                                <NNP id="58" level="12" pid="57">President</NNP>
+                                                <NNP id="59" level="12" pid="57">Bush</NNP>
+                                            </NP-LGS>
+                                        </PP>
+                                    </VP>
+                                </NP>
+                            </PP>
+                        </NP>
+                    </VP>
+                </S-ADV>
+            </VP>
+            <FULLSTOP id="60" level="3" pid="2">.</FULLSTOP>
+        </S>
+    </S1>
+    <S1 id="1" level="1" pid="0" sentenceId="1">
+        <S id="2" level="2" pid="1">
+            <NP-SBJ id="3" level="3" pid="2">
+                <DT id="4" level="4" pid="3">The</DT>
+                <NN id="5" level="4" pid="3">vote</NN>
+            </NP-SBJ>
+            <VP id="6" level="3" pid="2">
+                <VBD id="7" level="4" pid="6">came</VBD>
+                <PP-TMP id="8" level="4" pid="6">
+                    <IN id="9" level="5" pid="8">after</IN>
+                    <NP id="10" level="5" pid="8">
+                        <NP id="11" level="6" pid="10">
+                            <DT id="12" level="7" pid="11">a</DT>
+                            <NN id="13" level="7" pid="11">debate</NN>
+                        </NP>
+                        <ADJP id="14" level="6" pid="10">
+                            <JJ id="15" level="7" pid="14">replete</JJ>
+                            <PP id="16" level="7" pid="14">
+                                <IN id="17" level="8" pid="16">with</IN>
+                                <NP id="18" level="8" pid="16">
+                                    <NP id="19" level="9" pid="18">
+                                        <NNS id="20" level="10" pid="19">complaints</NNS>
+                                    </NP>
+                                    <PP id="21" level="9" pid="18">
+                                        <IN id="22" level="10" pid="21">from</IN>
+                                        <NP id="23" level="10" pid="21">
+                                            <NP id="24" level="11" pid="23">
+                                                <DT id="25" level="12" pid="24">both</DT>
+                                                <NNS id="26" level="12" pid="24">proponents</NNS>
+                                                <CC id="27" level="12" pid="24">and</CC>
+                                                <NNS id="28" level="12" pid="24">critics</NNS>
+                                            </NP>
+                                            <PP id="29" level="11" pid="23">
+                                                <IN id="30" level="12" pid="29">of</IN>
+                                                <NP id="31" level="12" pid="29">
+                                                    <NP id="32" level="13" pid="31">
+                                                        <DT id="33" level="14" pid="32">a</DT>
+                                                        <JJ id="34" level="14" pid="32">substantial</JJ>
+                                                        <NN id="35" level="14" pid="32">increase</NN>
+                                                    </NP>
+                                                    <PP-LOC id="36" level="13" pid="31">
+                                                        <IN id="37" level="14" pid="36">in</IN>
+                                                        <NP id="38" level="14" pid="36">
+                                                            <DT id="39" level="15" pid="38">the</DT>
+                                                            <NN id="40" level="15" pid="38">wage</NN>
+                                                            <NN id="41" level="15" pid="38">floor</NN>
+                                                        </NP>
+                                                    </PP-LOC>
+                                                </NP>
+                                            </PP>
+                                        </NP>
+                                    </PP>
+                                </NP>
+                            </PP>
+                        </ADJP>
+                    </NP>
+                </PP-TMP>
+            </VP>
+            <FULLSTOP id="42" level="3" pid="2">.</FULLSTOP>
+        </S>
+    </S1>
+    <S1 id="1" level="1" pid="0" sentenceId="2">
+        <S id="2" level="2" pid="1">
+            <NP-SBJ id="3" level="3" pid="2">
+                <NNS id="4" level="4" pid="3">Advocates</NNS>
+            </NP-SBJ>
+            <VP id="5" level="3" pid="2">
+                <VBD id="6" level="4" pid="5">said</VBD>
+                <SBAR id="7" level="4" pid="5">
+                    <S id="9" level="5" pid="7">
+                        <NP-SBJ id="10" level="6" pid="9">
+                            <NP id="11" level="7" pid="10">
+                                <DT id="12" level="8" pid="11">the</DT>
+                                <JJ id="13" level="8" pid="11">90-cent-an-hour</JJ>
+                                <NN id="14" level="8" pid="11">rise</NN>
+                            </NP>
+                            <COMMA id="15" level="7" pid="10">,</COMMA>
+                            <PP-DIR id="16" level="7" pid="10">
+                                <TO id="17" level="8" pid="16">to</TO>
+                                <NP id="18" level="8" pid="16">
+                                    <NP id="19" level="9" pid="18">
+                                        <DOLLARSIGN id="20" level="10" pid="19">$</DOLLARSIGN>
+                                        <CD id="21" level="10" pid="19">4.25</CD>
+                                    </NP>
+                                    <NP-ADV id="23" level="9" pid="18">
+                                        <DT id="24" level="10" pid="23">an</DT>
+                                        <NN id="25" level="10" pid="23">hour</NN>
+                                    </NP-ADV>
+                                </NP>
+                            </PP-DIR>
+                            <PP-TMP id="26" level="7" pid="10">
+                                <IN id="27" level="8" pid="26">by</IN>
+                                <NP id="28" level="8" pid="26">
+                                    <NNP id="29" level="9" pid="28">April</NNP>
+                                    <CD id="30" level="9" pid="28">1991</CD>
+                                </NP>
+                            </PP-TMP>
+                            <COMMA id="31" level="7" pid="10">,</COMMA>
+                        </NP-SBJ>
+                        <VP id="32" level="6" pid="9">
+                            <VBZ id="33" level="7" pid="32">is</VBZ>
+                            <ADJP-PRD id="34" level="7" pid="32">
+                                <RB id="35" level="8" pid="34">too</RB>
+                                <JJ id="36" level="8" pid="34">small</JJ>
+                            </ADJP-PRD>
+                            <PP id="37" level="7" pid="32">
+                                <IN id="38" level="8" pid="37">for</IN>
+                                <NP id="39" level="8" pid="37">
+                                    <DT id="40" level="9" pid="39">the</DT>
+                                    <VBG id="41" level="9" pid="39">working</VBG>
+                                    <NN id="42" level="9" pid="39">poor</NN>
+                                </NP>
+                            </PP>
+                        </VP>
+                    </S>
+                </SBAR>
+                <COMMA id="43" level="4" pid="5">,</COMMA>
+                <SBAR-ADV id="44" level="4" pid="5">
+                    <IN id="45" level="5" pid="44">while</IN>
+                    <S id="46" level="5" pid="44">
+                        <NP-SBJ id="47" level="6" pid="46">
+                            <NNS id="48" level="7" pid="47">opponents</NNS>
+                        </NP-SBJ>
+                        <VP id="49" level="6" pid="46">
+                            <VBD id="50" level="7" pid="49">argued</VBD>
+                            <SBAR id="51" level="7" pid="49">
+                                <IN id="52" level="8" pid="51">that</IN>
+                                <S id="53" level="8" pid="51">
+                                    <NP-SBJ id="54" level="9" pid="53">
+                                        <DT id="55" level="10" pid="54">the</DT>
+                                        <NN id="56" level="10" pid="54">increase</NN>
+                                    </NP-SBJ>
+                                    <VP id="57" level="9" pid="53">
+                                        <MD id="58" level="10" pid="57">will</MD>
+                                        <ADVP id="59" level="10" pid="57">
+                                            <RB id="60" level="11" pid="59">still</RB>
+                                        </ADVP>
+                                        <VP id="61" level="10" pid="57">
+                                            <VP id="62" level="11" pid="61">
+                                                <VB id="63" level="12" pid="62">hurt</VB>
+                                                <NP id="64" level="12" pid="62">
+                                                    <JJ id="65" level="13" pid="64">small</JJ>
+                                                    <NN id="66" level="13" pid="64">business</NN>
+                                                </NP>
+                                            </VP>
+                                            <CC id="67" level="11" pid="61">and</CC>
+                                            <VP id="68" level="11" pid="61">
+                                                <VB id="69" level="12" pid="68">cost</VB>
+                                                <NP id="70" level="12" pid="68">
+                                                    <NP id="71" level="13" pid="70">
+                                                        <QP id="72" level="14" pid="71">
+                                                            <JJ id="73" level="15" pid="72">many</JJ>
+                                                            <NNS id="74" level="15" pid="72">thousands</NNS>
+                                                        </QP>
+                                                    </NP>
+                                                    <PP id="75" level="13" pid="70">
+                                                        <IN id="76" level="14" pid="75">of</IN>
+                                                        <NP id="77" level="14" pid="75">
+                                                            <NNS id="78" level="15" pid="77">jobs</NNS>
+                                                        </NP>
+                                                    </PP>
+                                                </NP>
+                                            </VP>
+                                        </VP>
+                                    </VP>
+                                </S>
+                            </SBAR>
+                        </VP>
+                    </S>
+                </SBAR-ADV>
+            </VP>
+            <FULLSTOP id="79" level="3" pid="2">.</FULLSTOP>
+        </S>
+    </S1>
+    <S1 id="1" level="1" pid="0" sentenceId="3">
+        <S id="2" level="2" pid="1">
+            <CC id="3" level="3" pid="2">But</CC>
+            <NP-SBJ id="4" level="3" pid="2">
+                <DT id="5" level="4" pid="4">the</DT>
+                <NN id="6" level="4" pid="4">legislation</NN>
+            </NP-SBJ>
+            <VP id="7" level="3" pid="2">
+                <VBD id="8" level="4" pid="7">reflected</VBD>
+                <NP id="9" level="4" pid="7">
+                    <NP id="10" level="5" pid="9">
+                        <DT id="11" level="6" pid="10">a</DT>
+                        <NN id="12" level="6" pid="10">compromise</NN>
+                    </NP>
+                    <VP id="13" level="5" pid="9">
+                        <VBN id="14" level="6" pid="13">agreed</VBN>
+                        <PP id="15" level="6" pid="13">
+                            <TO id="16" level="7" pid="15">to</TO>
+                        </PP>
+                        <PP-TMP id="19" level="6" pid="13">
+                            <IN id="20" level="7" pid="19">on</IN>
+                            <NP id="21" level="7" pid="19">
+                                <NNP id="22" level="8" pid="21">Tuesday</NNP>
+                            </NP>
+                        </PP-TMP>
+                        <PP id="23" level="6" pid="13">
+                            <IN id="24" level="7" pid="23">by</IN>
+                            <NP-LGS id="25" level="7" pid="23">
+                                <NP id="26" level="8" pid="25">
+                                    <NNP id="27" level="9" pid="26">President</NNP>
+                                    <NNP id="28" level="9" pid="26">Bush</NNP>
+                                </NP>
+                                <CC id="29" level="8" pid="25">and</CC>
+                                <NP id="30" level="8" pid="25">
+                                    <NP id="31" level="9" pid="30">
+                                        <JJ id="32" level="10" pid="31">Democratic</JJ>
+                                        <NNS id="33" level="10" pid="31">leaders</NNS>
+                                    </NP>
+                                    <PP-LOC id="34" level="9" pid="30">
+                                        <IN id="35" level="10" pid="34">in</IN>
+                                        <NP id="36" level="10" pid="34">
+                                            <NNP id="37" level="11" pid="36">Congress</NNP>
+                                        </NP>
+                                    </PP-LOC>
+                                </NP>
+                            </NP-LGS>
+                        </PP>
+                        <COMMA id="38" level="6" pid="13">,</COMMA>
+                        <SBAR-TMP id="39" level="6" pid="13">
+                            <IN id="40" level="7" pid="39">after</IN>
+                            <S id="41" level="7" pid="39">
+                                <NP-SBJ id="42" level="8" pid="41">
+                                    <JJ id="43" level="9" pid="42">congressional</JJ>
+                                    <NNPS id="44" level="9" pid="42">Republicans</NNPS>
+                                </NP-SBJ>
+                                <VP id="45" level="8" pid="41">
+                                    <VBD id="46" level="9" pid="45">urged</VBD>
+                                    <NP-2 id="47" level="9" pid="45">
+                                        <DT id="48" level="10" pid="47">the</DT>
+                                        <NNP id="49" level="10" pid="47">White</NNP>
+                                        <NNP id="50" level="10" pid="47">House</NNP>
+                                    </NP-2>
+                                    <S id="51" level="9" pid="45">
+                                        <VP id="54" level="10" pid="51">
+                                            <TO id="55" level="11" pid="54">to</TO>
+                                            <VP id="56" level="11" pid="54">
+                                                <VB id="57" level="12" pid="56">bend</VB>
+                                                <NP id="58" level="12" pid="56">
+                                                    <DT id="59" level="13" pid="58">a</DT>
+                                                    <NN id="60" level="13" pid="58">bit</NN>
+                                                </NP>
+                                                <PP-DIR id="61" level="12" pid="56">
+                                                    <IN id="62" level="13" pid="61">from</IN>
+                                                    <NP id="63" level="13" pid="61">
+                                                        <PRPS id="64" level="14" pid="63">its</PRPS>
+                                                        <JJ id="65" level="14" pid="63">previous</JJ>
+                                                        <NN id="66" level="14" pid="63">resistance</NN>
+                                                        <S id="67" level="14" pid="63">
+                                                            <NP-SBJ id="68" level="15" pid="67"/>
+                                                            <VP id="70" level="15" pid="67">
+                                                                <TO id="71" level="16" pid="70">to</TO>
+                                                                <VP id="72" level="16" pid="70">
+                                                                    <VB id="73" level="17" pid="72">compromise</VB>
+                                                                </VP>
+                                                            </VP>
+                                                        </S>
+                                                    </NP>
+                                                </PP-DIR>
+                                            </VP>
+                                        </VP>
+                                    </S>
+                                </VP>
+                            </S>
+                        </SBAR-TMP>
+                    </VP>
+                </NP>
+            </VP>
+            <FULLSTOP id="74" level="3" pid="2">.</FULLSTOP>
+        </S>
+    </S1>
+    <S1 id="1" level="1" pid="0" sentenceId="4">
+        <S id="2" level="2" pid="1">
+            <IN id="3" level="3" pid="2">So</IN>
+            <NP-SBJ id="4" level="3" pid="2">
+                <DT id="5" level="4" pid="4">both</DT>
+                <NNS id="6" level="4" pid="4">sides</NNS>
+            </NP-SBJ>
+            <VP id="7" level="3" pid="2">
+                <VBD id="8" level="4" pid="7">accepted</VBD>
+                <NP id="9" level="4" pid="7">
+                    <NP id="10" level="5" pid="9">
+                        <DT id="11" level="6" pid="10">the</DT>
+                        <NN id="12" level="6" pid="10">compromise</NN>
+                    </NP>
+                    <COMMA id="13" level="5" pid="9">,</COMMA>
+                    <SBAR id="14" level="5" pid="9">
+                        <WHNP-259 id="15" level="6" pid="14">
+                            <WDT id="16" level="7" pid="15">which</WDT>
+                        </WHNP-259>
+                        <S id="17" level="6" pid="14">
+                            <VP id="20" level="7" pid="17">
+                                <MD id="21" level="8" pid="20">would</MD>
+                                <VP id="22" level="8" pid="20">
+                                    <VB id="23" level="9" pid="22">lead</VB>
+                                    <PP-CLR id="24" level="9" pid="22">
+                                        <TO id="25" level="10" pid="24">to</TO>
+                                        <NP id="26" level="10" pid="24">
+                                            <NP id="27" level="11" pid="26">
+                                                <DT id="28" level="12" pid="27">the</DT>
+                                                <JJ id="29" level="12" pid="27">first</JJ>
+                                                <NN id="30" level="12" pid="27">lifting</NN>
+                                            </NP>
+                                            <PP id="31" level="11" pid="26">
+                                                <IN id="32" level="12" pid="31">of</IN>
+                                                <NP id="33" level="12" pid="31">
+                                                    <DT id="34" level="13" pid="33">the</DT>
+                                                    <JJ id="35" level="13" pid="33">minimum</JJ>
+                                                    <NN id="36" level="13" pid="33">wage</NN>
+                                                </NP>
+                                            </PP>
+                                            <SBAR-TMP id="37" level="11" pid="26">
+                                                <IN id="38" level="12" pid="37">since</IN>
+                                                <S id="39" level="12" pid="37">
+                                                    <NP-SBJ-163 id="40" level="13" pid="39">
+                                                        <DT id="41" level="14" pid="40">a</DT>
+                                                        <JJ id="42" level="14" pid="40">four-year</JJ>
+                                                        <NN id="43" level="14" pid="40">law</NN>
+                                                    </NP-SBJ-163>
+                                                    <VP id="44" level="13" pid="39">
+                                                        <VBD id="45" level="14" pid="44">was</VBD>
+                                                        <VP id="46" level="14" pid="44">
+                                                            <VBN id="47" level="15" pid="46">enacted</VBN>
+                                                            <NP id="48" level="15" pid="46"/>
+                                                            <PP-TMP id="50" level="15" pid="46">
+                                                                <IN id="51" level="16" pid="50">in</IN>
+                                                                <NP id="52" level="16" pid="50">
+                                                                    <CD id="53" level="17" pid="52">1977</CD>
+                                                                </NP>
+                                                            </PP-TMP>
+                                                            <COMMA id="54" level="15" pid="46">,</COMMA>
+                                                            <S-ADV id="55" level="15" pid="46">
+                                                                <NP-SBJ id="56" level="16" pid="55"/>
+                                                                <VP id="58" level="16" pid="55">
+                                                                    <VBG id="59" level="17" pid="58">raising</VBG>
+                                                                    <NP id="60" level="17" pid="58">
+                                                                        <DT id="61" level="18" pid="60">the</DT>
+                                                                        <NN id="62" level="18" pid="60">wage</NN>
+                                                                    </NP>
+                                                                    <PP-DIR id="63" level="17" pid="58">
+                                                                        <TO id="64" level="18" pid="63">to</TO>
+                                                                        <NP id="65" level="18" pid="63">
+                                                                            <NP id="66" level="19" pid="65">
+                                                                                <DOLLARSIGN id="67" level="20" pid="66">$</DOLLARSIGN>
+                                                                                <CD id="68" level="20" pid="66">3.35</CD>
+                                                                            </NP>
+                                                                            <NP-ADV id="70" level="19" pid="65">
+                                                                                <DT id="71" level="20" pid="70">an</DT>
+                                                                                <NN id="72" level="20" pid="70">hour</NN>
+                                                                            </NP-ADV>
+                                                                        </NP>
+                                                                    </PP-DIR>
+                                                                    <PP-DIR id="73" level="17" pid="58">
+                                                                        <IN id="74" level="18" pid="73">from</IN>
+                                                                        <NP id="75" level="18" pid="73">
+                                                                            <DOLLARSIGN id="76" level="19" pid="75">$</DOLLARSIGN>
+                                                                            <CD id="77" level="19" pid="75">2.65</CD>
+                                                                        </NP>
+                                                                    </PP-DIR>
+                                                                </VP>
+                                                            </S-ADV>
+                                                        </VP>
+                                                    </VP>
+                                                </S>
+                                            </SBAR-TMP>
+                                        </NP>
+                                    </PP-CLR>
+                                </VP>
+                            </VP>
+                        </S>
+                    </SBAR>
+                </NP>
+            </VP>
+            <FULLSTOP id="79" level="3" pid="2">.</FULLSTOP>
+        </S>
+    </S1>
+    <S1 id="1" level="1" pid="0" sentenceId="5">
+        <S id="2" level="2" pid="1">
+            <PP-LOC id="3" level="3" pid="2">
+                <IN id="4" level="4" pid="3">Under</IN>
+                <NP id="5" level="4" pid="3">
+                    <NP id="6" level="5" pid="5">
+                        <DT id="7" level="6" pid="6">the</DT>
+                        <NN id="8" level="6" pid="6">measure</NN>
+                    </NP>
+                    <VP id="9" level="5" pid="5">
+                        <VBD id="10" level="6" pid="9">passed</VBD>
+                        <NP-TMP id="13" level="6" pid="9">
+                            <NN id="14" level="7" pid="13">yesterday</NN>
+                        </NP-TMP>
+                    </VP>
+                </NP>
+            </PP-LOC>
+            <COMMA id="15" level="3" pid="2">,</COMMA>
+            <NP-SBJ id="16" level="3" pid="2">
+                <DT id="17" level="4" pid="16">the</DT>
+                <JJ id="18" level="4" pid="16">minimum</JJ>
+                <NN id="19" level="4" pid="16">wage</NN>
+            </NP-SBJ>
+            <VP id="20" level="3" pid="2">
+                <MD id="21" level="4" pid="20">would</MD>
+                <VP id="22" level="4" pid="20">
+                    <VB id="23" level="5" pid="22">rise</VB>
+                    <PP-DIR id="24" level="5" pid="22">
+                        <TO id="25" level="6" pid="24">to</TO>
+                        <NP id="26" level="6" pid="24">
+                            <DOLLARSIGN id="27" level="7" pid="26">$</DOLLARSIGN>
+                            <CD id="28" level="7" pid="26">3.80</CD>
+                        </NP>
+                    </PP-DIR>
+                    <NP-TMP id="30" level="5" pid="22">
+                        <JJ id="31" level="6" pid="30">next</JJ>
+                        <NNP id="32" level="6" pid="30">April</NNP>
+                    </NP-TMP>
+                </VP>
+            </VP>
+            <FULLSTOP id="33" level="3" pid="2">.</FULLSTOP>
+        </S>
+    </S1>
+    <S1 id="1" level="1" pid="0" sentenceId="6">
+        <S id="2" level="2" pid="1">
+            <NP-SBJ-1 id="3" level="3" pid="2">
+                <DT id="4" level="4" pid="3">The</DT>
+                <NNP id="5" level="4" pid="3">Senate</NNP>
+            </NP-SBJ-1>
+            <VP id="6" level="3" pid="2">
+                <VP id="7" level="4" pid="6">
+                    <VBZ id="8" level="5" pid="7">plans</VBZ>
+                    <S id="9" level="5" pid="7">
+                        <VP id="12" level="6" pid="9">
+                            <TO id="13" level="7" pid="12">to</TO>
+                            <VP id="14" level="7" pid="12">
+                                <VB id="15" level="8" pid="14">take</VB>
+                                <PRT id="16" level="8" pid="14">
+                                    <RP id="17" level="9" pid="16">up</RP>
+                                </PRT>
+                                <NP id="18" level="8" pid="14">
+                                    <DT id="19" level="9" pid="18">the</DT>
+                                    <NN id="20" level="9" pid="18">measure</NN>
+                                </NP>
+                                <ADVP-TMP id="21" level="8" pid="14">
+                                    <RB id="22" level="9" pid="21">quickly</RB>
+                                </ADVP-TMP>
+                            </VP>
+                        </VP>
+                    </S>
+                </VP>
+                <CC id="23" level="4" pid="6">and</CC>
+                <VP id="24" level="4" pid="6">
+                    <VBZ id="25" level="5" pid="24">is</VBZ>
+                    <VP id="26" level="5" pid="24">
+                        <VBN id="27" level="6" pid="26">expected</VBN>
+                        <S id="28" level="6" pid="26">
+                            <VP id="31" level="7" pid="28">
+                                <TO id="32" level="8" pid="31">to</TO>
+                                <VP id="33" level="8" pid="31">
+                                    <VB id="34" level="9" pid="33">pass</VB>
+                                    <NP id="35" level="9" pid="33">
+                                        <PRP id="36" level="10" pid="35">it</PRP>
+                                    </NP>
+                                </VP>
+                            </VP>
+                        </S>
+                    </VP>
+                </VP>
+            </VP>
+            <FULLSTOP id="37" level="3" pid="2">.</FULLSTOP>
+        </S>
+    </S1>
+    <S1 id="1" level="1" pid="0" sentenceId="7">
+        <S id="2" level="2" pid="1">
+            <LDQ id="3" level="3" pid="2">``</LDQ>
+            <S-TPC-1 id="4" level="3" pid="2">
+                <NP-SBJ id="5" level="4" pid="4">
+                    <EX id="6" level="5" pid="5">There</EX>
+                </NP-SBJ>
+                <VP id="7" level="4" pid="4">
+                    <VBP id="8" level="5" pid="7">are</VBP>
+                    <NP-PRD id="9" level="5" pid="7">
+                        <NP id="10" level="6" pid="9">
+                            <DT id="11" level="7" pid="10">no</DT>
+                            <NNS id="12" level="7" pid="10">smiles</NNS>
+                        </NP>
+                        <PP id="13" level="6" pid="9">
+                            <IN id="14" level="7" pid="13">about</IN>
+                            <NP id="15" level="7" pid="13">
+                                <DT id="16" level="8" pid="15">this</DT>
+                                <NN id="17" level="8" pid="15">bill</NN>
+                            </NP>
+                        </PP>
+                    </NP-PRD>
+                </VP>
+            </S-TPC-1>
+            <COMMA id="18" level="3" pid="2">,</COMMA>
+            <RDQ id="19" level="3" pid="2">''</RDQ>
+            <NP-SBJ id="20" level="3" pid="2">
+                <NP id="21" level="4" pid="20">
+                    <NNP id="22" level="5" pid="21">Rep.</NNP>
+                    <NNP id="23" level="5" pid="21">Pat</NNP>
+                    <NNP id="24" level="5" pid="21">Williams</NNP>
+                </NP>
+                <PRN id="25" level="4" pid="20">
+                    <LRB id="26" level="5" pid="25">-LRB-</LRB>
+                    <NP id="27" level="5" pid="25">
+                        <NNP id="28" level="6" pid="27">D.</NNP>
+                    </NP>
+                    <COMMA id="29" level="5" pid="25">,</COMMA>
+                    <NP-LOC id="30" level="5" pid="25">
+                        <NNP id="31" level="6" pid="30">Mont</NNP>
+                        <FULLSTOP id="32" level="6" pid="30">.</FULLSTOP>
+                    </NP-LOC>
+                    <RRB id="33" level="5" pid="25">-RRB-</RRB>
+                </PRN>
+            </NP-SBJ>
+            <VP id="34" level="3" pid="2">
+                <VBD id="35" level="4" pid="34">said</VBD>
+                <PP-TMP id="38" level="4" pid="34">
+                    <IN id="39" level="5" pid="38">during</IN>
+                    <NP id="40" level="5" pid="38">
+                        <NNP id="41" level="6" pid="40">House</NNP>
+                        <NN id="42" level="6" pid="40">floor</NN>
+                        <NN id="43" level="6" pid="40">debate</NN>
+                    </NP>
+                </PP-TMP>
+                <NP-TMP id="44" level="4" pid="34">
+                    <NN id="45" level="5" pid="44">yesterday</NN>
+                </NP-TMP>
+            </VP>
+            <FULLSTOP id="46" level="3" pid="2">.</FULLSTOP>
+        </S>
+    </S1>
+    <S1 id="1" level="1" pid="0" sentenceId="8">
+        <S id="2" level="2" pid="1">
+            <CC id="3" level="3" pid="2">But</CC>
+            <LDQ id="4" level="3" pid="2">``</LDQ>
+            <SBAR-PRP id="5" level="3" pid="2">
+                <IN id="6" level="4" pid="5">because</IN>
+                <S id="7" level="4" pid="5">
+                    <NP-SBJ id="8" level="5" pid="7">
+                        <PRP id="9" level="6" pid="8">it</PRP>
+                    </NP-SBJ>
+                    <VP id="10" level="5" pid="7">
+                        <VBZ id="11" level="6" pid="10">'s</VBZ>
+                        <NP-PRD id="12" level="6" pid="10">
+                            <NP id="13" level="7" pid="12">
+                                <DT id="14" level="8" pid="13">all</DT>
+                            </NP>
+                            <SBAR id="15" level="7" pid="12">
+                                <S id="18" level="8" pid="15">
+                                    <NP-SBJ id="19" level="9" pid="18">
+                                        <PRP id="20" level="10" pid="19">we</PRP>
+                                    </NP-SBJ>
+                                    <VP id="21" level="9" pid="18">
+                                        <VBP id="22" level="10" pid="21">'ve</VBP>
+                                        <VP id="23" level="10" pid="21">
+                                            <VBN id="24" level="11" pid="23">got</VBN>
+                                            <NP id="25" level="11" pid="23"/>
+                                        </VP>
+                                    </VP>
+                                </S>
+                            </SBAR>
+                        </NP-PRD>
+                    </VP>
+                </S>
+            </SBAR-PRP>
+            <COMMA id="27" level="3" pid="2">,</COMMA>
+            <NP-SBJ-2 id="28" level="3" pid="2">
+                <PRP id="29" level="4" pid="28">I</PRP>
+            </NP-SBJ-2>
+            <VP id="30" level="3" pid="2">
+                <VBP id="31" level="4" pid="30">'m</VBP>
+                <VP id="32" level="4" pid="30">
+                    <VBG id="33" level="5" pid="32">going</VBG>
+                    <S id="34" level="5" pid="32">
+                        <VP id="37" level="6" pid="34">
+                            <TO id="38" level="7" pid="37">to</TO>
+                            <VP id="39" level="7" pid="37">
+                                <VB id="40" level="8" pid="39">vote</VB>
+                                <PP-CLR id="41" level="8" pid="39">
+                                    <IN id="42" level="9" pid="41">for</IN>
+                                    <NP id="43" level="9" pid="41">
+                                        <PRP id="44" level="10" pid="43">it</PRP>
+                                    </NP>
+                                </PP-CLR>
+                            </VP>
+                        </VP>
+                    </S>
+                </VP>
+            </VP>
+            <FULLSTOP id="45" level="3" pid="2">.</FULLSTOP>
+            <RDQ id="46" level="3" pid="2">''</RDQ>
+        </S>
+    </S1>
+    <S1 id="1" level="1" pid="0" sentenceId="9">
+        <S id="2" level="2" pid="1">
+            <S-TPC-1 id="3" level="3" pid="2">
+                <SBAR-ADV id="4" level="4" pid="3">
+                    <IN id="5" level="5" pid="4">While</IN>
+                    <S id="6" level="5" pid="4">
+                        <NP-SBJ-164 id="7" level="6" pid="6">
+                            <DT id="8" level="7" pid="7">the</DT>
+                            <JJ id="9" level="7" pid="7">minimum</JJ>
+                            <NN id="10" level="7" pid="7">wage</NN>
+                        </NP-SBJ-164>
+                        <VP id="11" level="6" pid="6">
+                            <VBD id="12" level="7" pid="11">had</VBD>
+                            <ADVP id="13" level="7" pid="11">
+                                <RB id="14" level="8" pid="13">traditionally</RB>
+                            </ADVP>
+                            <VP id="15" level="7" pid="11">
+                                <VBN id="16" level="8" pid="15">been</VBN>
+                                <VP id="17" level="8" pid="15">
+                                    <VBN id="18" level="9" pid="17">pegged</VBN>
+                                    <PP-CLR id="21" level="9" pid="17">
+                                        <IN id="22" level="10" pid="21">at</IN>
+                                        <NP id="23" level="10" pid="21">
+                                            <ADVP id="24" level="11" pid="23">
+                                                <PDT id="25" level="12" pid="24">half</PDT>
+                                            </ADVP>
+                                            <DT id="26" level="11" pid="23">the</DT>
+                                            <JJ id="27" level="11" pid="23">average</JJ>
+                                            <NNP id="28" level="11" pid="23">U.S.</NNP>
+                                            <NN id="29" level="11" pid="23">manufacturing</NN>
+                                            <NN id="30" level="11" pid="23">wage</NN>
+                                        </NP>
+                                    </PP-CLR>
+                                </VP>
+                            </VP>
+                        </VP>
+                    </S>
+                </SBAR-ADV>
+                <COMMA id="31" level="4" pid="3">,</COMMA>
+                <NP-SBJ id="32" level="4" pid="3">
+                    <NP id="33" level="5" pid="32">
+                        <DT id="34" level="6" pid="33">the</DT>
+                        <NN id="35" level="6" pid="33">level</NN>
+                    </NP>
+                    <PP id="36" level="5" pid="32">
+                        <IN id="37" level="6" pid="36">of</IN>
+                        <NP id="38" level="6" pid="36">
+                            <NP id="39" level="7" pid="38">
+                                <DOLLARSIGN id="40" level="8" pid="39">$</DOLLARSIGN>
+                                <CD id="41" level="8" pid="39">4.25</CD>
+                            </NP>
+                            <NP-ADV id="43" level="7" pid="38">
+                                <DT id="44" level="8" pid="43">an</DT>
+                                <NN id="45" level="8" pid="43">hour</NN>
+                            </NP-ADV>
+                        </NP>
+                    </PP>
+                </NP-SBJ>
+                <PP-TMP id="46" level="4" pid="3">
+                    <IN id="47" level="5" pid="46">in</IN>
+                    <NP id="48" level="5" pid="46">
+                        <CD id="49" level="6" pid="48">1991</CD>
+                    </NP>
+                </PP-TMP>
+                <VP id="50" level="4" pid="3">
+                    <MD id="51" level="5" pid="50">will</MD>
+                    <ADVP-TMP id="52" level="5" pid="50">
+                        <RB id="53" level="6" pid="52">still</RB>
+                    </ADVP-TMP>
+                    <VP id="54" level="5" pid="50">
+                        <VB id="55" level="6" pid="54">be</VB>
+                        <NP-PRD id="56" level="6" pid="54">
+                            <NP id="57" level="7" pid="56">
+                                <JJR id="58" level="8" pid="57">less</JJR>
+                            </NP>
+                            <PP id="59" level="7" pid="56">
+                                <IN id="60" level="8" pid="59">than</IN>
+                                <NP id="61" level="8" pid="59">
+                                    <NP id="62" level="9" pid="61">
+                                        <CD id="63" level="10" pid="62">35</CD>
+                                        <NN id="64" level="10" pid="62">%</NN>
+                                    </NP>
+                                    <PP id="65" level="9" pid="61">
+                                        <IN id="66" level="10" pid="65">of</IN>
+                                        <NP id="67" level="10" pid="65">
+                                            <JJ id="68" level="11" pid="67">average</JJ>
+                                            <NN id="69" level="11" pid="67">factory</NN>
+                                            <NN id="70" level="11" pid="67">pay</NN>
+                                        </NP>
+                                    </PP>
+                                </NP>
+                            </PP>
+                        </NP-PRD>
+                    </VP>
+                </VP>
+            </S-TPC-1>
+            <COMMA id="71" level="3" pid="2">,</COMMA>
+            <NP-SBJ id="72" level="3" pid="2">
+                <NNP id="73" level="4" pid="72">Mr.</NNP>
+                <NNP id="74" level="4" pid="72">Williams</NNP>
+            </NP-SBJ>
+            <VP id="75" level="3" pid="2">
+                <VBD id="76" level="4" pid="75">said</VBD>
+                <SBAR id="77" level="4" pid="75"/>
+            </VP>
+            <FULLSTOP id="81" level="3" pid="2">.</FULLSTOP>
+        </S>
+    </S1>
+    <S1 id="1" level="1" pid="0" sentenceId="10">
+        <S id="2" level="2" pid="1">
+            <CC id="3" level="3" pid="2">But</CC>
+            <NP-SBJ id="4" level="3" pid="2">
+                <NP id="5" level="4" pid="4">
+                    <NNP id="6" level="5" pid="5">Rep.</NNP>
+                    <NNP id="7" level="5" pid="5">Marge</NNP>
+                    <NNP id="8" level="5" pid="5">Roukema</NNP>
+                </NP>
+                <PRN id="9" level="4" pid="4">
+                    <LRB id="10" level="5" pid="9">-LRB-</LRB>
+                    <NP id="11" level="5" pid="9">
+                        <NNP id="12" level="6" pid="11">R.</NNP>
+                    </NP>
+                    <COMMA id="13" level="5" pid="9">,</COMMA>
+                    <NP-LOC id="14" level="5" pid="9">
+                        <NNP id="15" level="6" pid="14">N.J</NNP>
+                        <FULLSTOP id="16" level="6" pid="14">.</FULLSTOP>
+                    </NP-LOC>
+                    <RRB id="17" level="5" pid="9">-RRB-</RRB>
+                </PRN>
+            </NP-SBJ>
+            <ADVP id="18" level="3" pid="2">
+                <RB id="19" level="4" pid="18">instead</RB>
+            </ADVP>
+            <VP id="20" level="3" pid="2">
+                <VBD id="21" level="4" pid="20">praised</VBD>
+                <NP id="22" level="4" pid="20">
+                    <NP id="23" level="5" pid="22">
+                        <NP id="24" level="6" pid="23">
+                            <DT id="25" level="7" pid="24">the</DT>
+                            <NNP id="26" level="7" pid="24">House</NNP>
+                            <POS id="27" level="7" pid="24">'s</POS>
+                        </NP>
+                        <NN id="28" level="6" pid="23">acceptance</NN>
+                    </NP>
+                    <PP id="29" level="5" pid="22">
+                        <IN id="30" level="6" pid="29">of</IN>
+                        <NP id="31" level="6" pid="29">
+                            <NP id="32" level="7" pid="31">
+                                <DT id="33" level="8" pid="32">a</DT>
+                                <JJ id="34" level="8" pid="32">new</JJ>
+                                <NN id="35" level="8" pid="32">youth</NN>
+                                <LDQ id="36" level="8" pid="32">``</LDQ>
+                                <NN id="37" level="8" pid="32">training</NN>
+                                <RDQ id="38" level="8" pid="32">''</RDQ>
+                                <NN id="39" level="8" pid="32">wage</NN>
+                            </NP>
+                            <COMMA id="40" level="7" pid="31">,</COMMA>
+                            <NP id="41" level="7" pid="31">
+                                <NP id="42" level="8" pid="41">
+                                    <DT id="43" level="9" pid="42">a</DT>
+                                    <NN id="44" level="9" pid="42">subminimum</NN>
+                                </NP>
+                                <SBAR id="45" level="8" pid="41">
+                                    <WHNP-1 id="46" level="9" pid="45">
+                                        <IN id="47" level="10" pid="46">that</IN>
+                                    </WHNP-1>
+                                    <S id="48" level="9" pid="45">
+                                        <NP-SBJ id="49" level="10" pid="48">
+                                            <NNP id="50" level="11" pid="49">GOP</NNP>
+                                            <NNS id="51" level="11" pid="49">administrations</NNS>
+                                        </NP-SBJ>
+                                        <VP id="52" level="10" pid="48">
+                                            <VBP id="53" level="11" pid="52">have</VBP>
+                                            <VP id="54" level="11" pid="52">
+                                                <VBN id="55" level="12" pid="54">sought</VBN>
+                                                <PP-TMP id="58" level="12" pid="54">
+                                                    <IN id="59" level="13" pid="58">for</IN>
+                                                    <NP id="60" level="13" pid="58">
+                                                        <JJ id="61" level="14" pid="60">many</JJ>
+                                                        <NNS id="62" level="14" pid="60">years</NNS>
+                                                    </NP>
+                                                </PP-TMP>
+                                            </VP>
+                                        </VP>
+                                    </S>
+                                </SBAR>
+                            </NP>
+                        </NP>
+                    </PP>
+                </NP>
+            </VP>
+            <FULLSTOP id="63" level="3" pid="2">.</FULLSTOP>
+        </S>
+    </S1>
+    <S1 id="1" level="1" pid="0" sentenceId="11">
+        <S id="2" level="2" pid="1">
+            <S-TPC-1 id="3" level="3" pid="2">
+                <S-NOM-SBJ id="4" level="4" pid="3">
+                    <VP id="7" level="5" pid="4">
+                        <VBG id="8" level="6" pid="7">Adopting</VBG>
+                        <NP id="9" level="6" pid="7">
+                            <DT id="10" level="7" pid="9">a</DT>
+                            <JJ id="11" level="7" pid="9">training-wage</JJ>
+                            <NN id="12" level="7" pid="9">policy</NN>
+                        </NP>
+                    </VP>
+                </S-NOM-SBJ>
+                <VP id="13" level="4" pid="3">
+                    <VBZ id="14" level="5" pid="13">means</VBZ>
+                    <LDQ id="15" level="5" pid="13">``</LDQ>
+                    <S id="16" level="5" pid="13">
+                        <VP id="19" level="6" pid="16">
+                            <VBG id="20" level="7" pid="19">getting</VBG>
+                            <PP-DIR id="21" level="7" pid="19">
+                                <IN id="22" level="8" pid="21">beyond</IN>
+                                <NP id="23" level="8" pid="21">
+                                    <NP id="24" level="9" pid="23">
+                                        <DT id="25" level="10" pid="24">the</DT>
+                                        <NN id="26" level="10" pid="24">nickel</NN>
+                                        <CC id="27" level="10" pid="24">and</CC>
+                                        <NN id="28" level="10" pid="24">diming</NN>
+                                    </NP>
+                                    <PP id="29" level="9" pid="23">
+                                        <IN id="30" level="10" pid="29">of</IN>
+                                        <NP id="31" level="10" pid="29">
+                                            <DT id="32" level="11" pid="31">the</DT>
+                                            <JJ id="33" level="11" pid="31">minimum</JJ>
+                                            <NN id="34" level="11" pid="31">wage</NN>
+                                        </NP>
+                                    </PP>
+                                </NP>
+                            </PP-DIR>
+                        </VP>
+                    </S>
+                </VP>
+            </S-TPC-1>
+            <COMMA id="35" level="3" pid="2">,</COMMA>
+            <RDQ id="36" level="3" pid="2">''</RDQ>
+            <NP-SBJ id="37" level="3" pid="2">
+                <NNP id="38" level="4" pid="37">Mrs.</NNP>
+                <NNP id="39" level="4" pid="37">Roukema</NNP>
+            </NP-SBJ>
+            <VP id="40" level="3" pid="2">
+                <VBD id="41" level="4" pid="40">said</VBD>
+                <SBAR id="42" level="4" pid="40"/>
+            </VP>
+            <FULLSTOP id="46" level="3" pid="2">.</FULLSTOP>
+        </S>
+    </S1>
+    <S1 id="1" level="1" pid="0" sentenceId="12">
+        <S id="2" level="2" pid="1">
+            <S id="3" level="3" pid="2">
+                <NP-SBJ id="4" level="4" pid="3">
+                    <NN id="5" level="5" pid="4">Policy</NN>
+                    <NNS id="6" level="5" pid="4">makers</NNS>
+                </NP-SBJ>
+                <VP id="7" level="4" pid="3">
+                    <VBP id="8" level="5" pid="7">regard</VBP>
+                    <NP id="9" level="5" pid="7">
+                        <DT id="10" level="6" pid="9">the</DT>
+                        <NN id="11" level="6" pid="9">youth</NN>
+                        <NN id="12" level="6" pid="9">wage</NN>
+                    </NP>
+                    <PP-CLR id="13" level="5" pid="7">
+                        <IN id="14" level="6" pid="13">as</IN>
+                        <S-NOM id="15" level="6" pid="13">
+                            <VP id="18" level="7" pid="15">
+                                <VBG id="19" level="8" pid="18">helping</VBG>
+                                <S id="20" level="8" pid="18">
+                                    <NP-SBJ id="21" level="9" pid="20"/>
+                                    <VP id="23" level="9" pid="20">
+                                        <TO id="24" level="10" pid="23">to</TO>
+                                        <VP id="25" level="10" pid="23">
+                                            <VB id="26" level="11" pid="25">limit</VB>
+                                            <NP id="27" level="11" pid="25">
+                                                <NP id="28" level="12" pid="27">
+                                                    <DT id="29" level="13" pid="28">the</DT>
+                                                    <NN id="30" level="13" pid="28">loss</NN>
+                                                </NP>
+                                                <PP id="31" level="12" pid="27">
+                                                    <IN id="32" level="13" pid="31">of</IN>
+                                                    <NP id="33" level="13" pid="31">
+                                                        <NNS id="34" level="14" pid="33">jobs</NNS>
+                                                    </NP>
+                                                </PP>
+                                                <PP id="35" level="12" pid="27">
+                                                    <IN id="36" level="13" pid="35">from</IN>
+                                                    <NP id="37" level="13" pid="35">
+                                                        <NP id="38" level="14" pid="37">
+                                                            <DT id="39" level="15" pid="38">an</DT>
+                                                            <NN id="40" level="15" pid="38">increase</NN>
+                                                        </NP>
+                                                        <PP-LOC id="41" level="14" pid="37">
+                                                            <IN id="42" level="15" pid="41">in</IN>
+                                                            <NP id="43" level="15" pid="41">
+                                                                <DT id="44" level="16" pid="43">the</DT>
+                                                                <JJ id="45" level="16" pid="43">minimum</JJ>
+                                                                <NN id="46" level="16" pid="43">wage</NN>
+                                                            </NP>
+                                                        </PP-LOC>
+                                                    </NP>
+                                                </PP>
+                                            </NP>
+                                        </VP>
+                                    </VP>
+                                </S>
+                            </VP>
+                        </S-NOM>
+                    </PP-CLR>
+                </VP>
+            </S>
+            <COMMA id="47" level="3" pid="2">,</COMMA>
+            <CC id="48" level="3" pid="2">but</CC>
+            <S id="49" level="3" pid="2">
+                <NP-SBJ id="50" level="4" pid="49">
+                    <PRP id="51" level="5" pid="50">they</PRP>
+                </NP-SBJ>
+                <VP id="52" level="4" pid="49">
+                    <VBP id="53" level="5" pid="52">have</VBP>
+                    <ADVP-TMP id="54" level="5" pid="52">
+                        <RB id="55" level="6" pid="54">lately</RB>
+                    </ADVP-TMP>
+                    <VP id="56" level="5" pid="52">
+                        <VBN id="57" level="6" pid="56">touted</VBN>
+                        <NP-2 id="58" level="6" pid="56">
+                            <PRP id="59" level="7" pid="58">it</PRP>
+                        </NP-2>
+                        <PP-CLR id="60" level="6" pid="56">
+                            <RB id="61" level="7" pid="60">as</RB>
+                            <ADJP id="62" level="7" pid="60">
+                                <JJ id="63" level="8" pid="62">necessary</JJ>
+                                <S id="64" level="8" pid="62">
+                                    <VP id="67" level="9" pid="64">
+                                        <TO id="68" level="10" pid="67">to</TO>
+                                        <VP id="69" level="10" pid="67">
+                                            <VB id="70" level="11" pid="69">help</VB>
+                                            <S id="71" level="11" pid="69">
+                                                <NP-SBJ id="72" level="12" pid="71"/>
+                                                <VP id="74" level="12" pid="71">
+                                                    <VB id="75" level="13" pid="74">impart</VB>
+                                                    <NP id="76" level="13" pid="74">
+                                                        <NN id="77" level="14" pid="76">job</NN>
+                                                        <NNS id="78" level="14" pid="76">skills</NNS>
+                                                    </NP>
+                                                    <PP-CLR id="79" level="13" pid="74">
+                                                        <TO id="80" level="14" pid="79">to</TO>
+                                                        <NP id="81" level="14" pid="79">
+                                                            <NP id="82" level="15" pid="81">
+                                                                <NNS id="83" level="16" pid="82">entrants</NNS>
+                                                            </NP>
+                                                            <PP-DIR id="84" level="15" pid="81">
+                                                                <IN id="85" level="16" pid="84">into</IN>
+                                                                <NP id="86" level="16" pid="84">
+                                                                    <DT id="87" level="17" pid="86">the</DT>
+                                                                    <NN id="88" level="17" pid="86">work</NN>
+                                                                    <NN id="89" level="17" pid="86">force</NN>
+                                                                </NP>
+                                                            </PP-DIR>
+                                                        </NP>
+                                                    </PP-CLR>
+                                                </VP>
+                                            </S>
+                                        </VP>
+                                    </VP>
+                                </S>
+                            </ADJP>
+                        </PP-CLR>
+                    </VP>
+                </VP>
+            </S>
+            <FULLSTOP id="90" level="3" pid="2">.</FULLSTOP>
+        </S>
+    </S1>
+    <S1 id="1" level="1" pid="0" sentenceId="13">
+        <S id="2" level="2" pid="1">
+            <NP-SBJ id="3" level="3" pid="2">
+                <NP id="4" level="4" pid="3">
+                    <NN id="5" level="5" pid="4">Labor</NN>
+                    <NNS id="6" level="5" pid="4">unions</NNS>
+                </NP>
+                <CC id="7" level="4" pid="3">and</CC>
+                <NP id="8" level="4" pid="3">
+                    <NNPS id="9" level="5" pid="8">Democrats</NNPS>
+                </NP>
+            </NP-SBJ>
+            <VP id="10" level="3" pid="2">
+                <VP id="11" level="4" pid="10">
+                    <ADVP-TMP id="12" level="5" pid="11">
+                        <RB id="13" level="6" pid="12">long</RB>
+                    </ADVP-TMP>
+                    <VBD id="14" level="5" pid="11">fought</VBD>
+                    <NP id="15" level="5" pid="11">
+                        <DT id="16" level="6" pid="15">the</DT>
+                        <NN id="17" level="6" pid="15">idea</NN>
+                    </NP>
+                </VP>
+                <COMMA id="18" level="4" pid="10">,</COMMA>
+                <CC id="19" level="4" pid="10">but</CC>
+                <VP id="20" level="4" pid="10">
+                    <ADVP-TMP id="21" level="5" pid="20">
+                        <RB id="22" level="6" pid="21">recently</RB>
+                    </ADVP-TMP>
+                    <VBD id="23" level="5" pid="20">acceded</VBD>
+                    <PP-CLR id="24" level="5" pid="20">
+                        <TO id="25" level="6" pid="24">to</TO>
+                        <NP id="26" level="6" pid="24">
+                            <PRP id="27" level="7" pid="26">it</PRP>
+                        </NP>
+                    </PP-CLR>
+                    <PP-LOC id="28" level="5" pid="20">
+                        <IN id="29" level="6" pid="28">in</IN>
+                        <NP id="30" level="6" pid="28">
+                            <NP id="31" level="7" pid="30">
+                                <DT id="32" level="8" pid="31">the</DT>
+                                <NN id="33" level="8" pid="31">face</NN>
+                            </NP>
+                            <PP id="34" level="7" pid="30">
+                                <IN id="35" level="8" pid="34">of</IN>
+                                <NP id="36" level="8" pid="34">
+                                    <NNP id="37" level="9" pid="36">Bush</NNP>
+                                    <NN id="38" level="9" pid="36">administration</NN>
+                                    <NN id="39" level="9" pid="36">insistence</NN>
+                                </NP>
+                            </PP>
+                        </NP>
+                    </PP-LOC>
+                </VP>
+            </VP>
+            <FULLSTOP id="40" level="3" pid="2">.</FULLSTOP>
+        </S>
+    </S1>
+    <S1 id="1" level="1" pid="0" sentenceId="14">
+        <S id="2" level="2" pid="1">
+            <NP-SBJ id="3" level="3" pid="2">
+                <DT id="4" level="4" pid="3">The</DT>
+                <NN id="5" level="4" pid="3">compromise</NN>
+            </NP-SBJ>
+            <VP id="6" level="3" pid="2">
+                <VBZ id="7" level="4" pid="6">sets</VBZ>
+                <NP id="8" level="4" pid="6">
+                    <DT id="9" level="5" pid="8">the</DT>
+                    <NN id="10" level="5" pid="8">training</NN>
+                    <NN id="11" level="5" pid="8">wage</NN>
+                </NP>
+                <PP-CLR id="12" level="4" pid="6">
+                    <PP id="13" level="5" pid="12">
+                        <IN id="14" level="6" pid="13">at</IN>
+                        <NP id="15" level="6" pid="13">
+                            <NP id="16" level="7" pid="15">
+                                <NP id="17" level="8" pid="16">
+                                    <DOLLARSIGN id="18" level="9" pid="17">$</DOLLARSIGN>
+                                    <CD id="19" level="9" pid="17">3.35</CD>
+                                </NP>
+                                <NP-ADV id="21" level="8" pid="16">
+                                    <DT id="22" level="9" pid="21">an</DT>
+                                    <NN id="23" level="9" pid="21">hour</NN>
+                                </NP-ADV>
+                            </NP>
+                            <NP-TMP id="24" level="7" pid="15">
+                                <IN id="25" level="8" pid="24">next</IN>
+                                <NNP id="26" level="8" pid="24">April</NNP>
+                            </NP-TMP>
+                        </NP>
+                    </PP>
+                    <COMMA id="27" level="5" pid="12">,</COMMA>
+                    <CC id="28" level="5" pid="12">and</CC>
+                    <PP id="29" level="5" pid="12">
+                        <IN id="30" level="6" pid="29">at</IN>
+                        <NP id="31" level="6" pid="29">
+                            <NP id="32" level="7" pid="31">
+                                <NP id="33" level="8" pid="32">
+                                    <NP id="34" level="9" pid="33">
+                                        <DOLLARSIGN id="35" level="10" pid="34">$</DOLLARSIGN>
+                                        <CD id="36" level="10" pid="34">3.61</CD>
+                                    </NP>
+                                    <NP-ADV id="38" level="9" pid="33">
+                                        <DT id="39" level="10" pid="38">an</DT>
+                                        <NN id="40" level="10" pid="38">hour</NN>
+                                    </NP-ADV>
+                                </NP>
+                                <COMMA id="41" level="8" pid="32">,</COMMA>
+                                <CC id="42" level="8" pid="32">or</CC>
+                                <NP id="43" level="8" pid="32">
+                                    <NP id="44" level="9" pid="43">
+                                        <CD id="45" level="10" pid="44">85</CD>
+                                        <NN id="46" level="10" pid="44">%</NN>
+                                    </NP>
+                                    <PP id="47" level="9" pid="43">
+                                        <IN id="48" level="10" pid="47">of</IN>
+                                        <NP id="49" level="10" pid="47">
+                                            <DT id="50" level="11" pid="49">the</DT>
+                                            <JJ id="51" level="11" pid="49">minimum</JJ>
+                                            <NN id="52" level="11" pid="49">wage</NN>
+                                        </NP>
+                                    </PP>
+                                </NP>
+                                <COMMA id="53" level="8" pid="32">,</COMMA>
+                            </NP>
+                            <PP-TMP id="54" level="7" pid="31">
+                                <IN id="55" level="8" pid="54">in</IN>
+                                <NP id="56" level="8" pid="54">
+                                    <NNP id="57" level="9" pid="56">April</NNP>
+                                    <CD id="58" level="9" pid="56">1991</CD>
+                                </NP>
+                            </PP-TMP>
+                        </NP>
+                    </PP>
+                </PP-CLR>
+            </VP>
+            <FULLSTOP id="59" level="3" pid="2">.</FULLSTOP>
+        </S>
+    </S1>
+    <S1 id="1" level="1" pid="0" sentenceId="15">
+        <S id="2" level="2" pid="1">
+            <NP-SBJ id="3" level="3" pid="2">
+                <NNS id="4" level="4" pid="3">Employers</NNS>
+            </NP-SBJ>
+            <VP id="5" level="3" pid="2">
+                <MD id="6" level="4" pid="5">can</MD>
+                <VP id="7" level="4" pid="5">
+                    <VP id="8" level="5" pid="7">
+                        <VB id="9" level="6" pid="8">pay</VB>
+                        <NP id="10" level="6" pid="8">
+                            <DT id="11" level="7" pid="10">the</DT>
+                            <NN id="12" level="7" pid="10">subminimum</NN>
+                        </NP>
+                        <PP-TMP-2 id="13" level="6" pid="8">
+                            <IN id="14" level="7" pid="13">for</IN>
+                            <NP id="15" level="7" pid="13">
+                                <CD id="16" level="8" pid="15">90</CD>
+                                <NNS id="17" level="8" pid="15">days</NNS>
+                            </NP>
+                        </PP-TMP-2>
+                        <COMMA id="18" level="6" pid="8">,</COMMA>
+                        <PP id="19" level="6" pid="8">
+                            <IN id="20" level="7" pid="19">without</IN>
+                            <NP id="21" level="7" pid="19">
+                                <NN id="22" level="8" pid="21">restriction</NN>
+                            </NP>
+                        </PP>
+                        <COMMA id="23" level="6" pid="8">,</COMMA>
+                        <PP-CLR id="24" level="6" pid="8">
+                            <TO id="25" level="7" pid="24">to</TO>
+                            <NP id="26" level="7" pid="24">
+                                <NP id="27" level="8" pid="26">
+                                    <NNS id="28" level="9" pid="27">workers</NNS>
+                                </NP>
+                                <PP id="29" level="8" pid="26">
+                                    <IN id="30" level="9" pid="29">with</IN>
+                                    <NP id="31" level="9" pid="29">
+                                        <NP id="32" level="10" pid="31">
+                                            <QP id="33" level="11" pid="32">
+                                                <JJR id="34" level="12" pid="33">less</JJR>
+                                                <IN id="35" level="12" pid="33">than</IN>
+                                                <CD id="36" level="12" pid="33">six</CD>
+                                            </QP>
+                                            <NNS id="37" level="11" pid="32">months</NNS>
+                                        </NP>
+                                        <PP id="38" level="10" pid="31">
+                                            <IN id="39" level="11" pid="38">of</IN>
+                                            <NP id="40" level="11" pid="38">
+                                                <NN id="41" level="12" pid="40">job</NN>
+                                                <NN id="42" level="12" pid="40">experience</NN>
+                                            </NP>
+                                        </PP>
+                                    </NP>
+                                </PP>
+                            </NP>
+                        </PP-CLR>
+                    </VP>
+                    <COMMA id="45" level="5" pid="7">,</COMMA>
+                    <CC id="46" level="5" pid="7">and</CC>
+                    <VP id="47" level="5" pid="7">
+                        <PP-TMP-2 id="48" level="6" pid="47">
+                            <IN id="49" level="7" pid="48">for</IN>
+                            <NP id="50" level="7" pid="48">
+                                <DT id="51" level="8" pid="50">another</DT>
+                                <CD id="52" level="8" pid="50">90</CD>
+                                <NNS id="53" level="8" pid="50">days</NNS>
+                            </NP>
+                        </PP-TMP-2>
+                        <SBAR-ADV-3 id="54" level="6" pid="47">
+                            <IN id="55" level="7" pid="54">if</IN>
+                            <S id="56" level="7" pid="54">
+                                <NP-SBJ id="57" level="8" pid="56">
+                                    <DT id="58" level="9" pid="57">the</DT>
+                                    <NN id="59" level="9" pid="57">company</NN>
+                                </NP-SBJ>
+                                <VP id="60" level="8" pid="56">
+                                    <VBZ id="61" level="9" pid="60">uses</VBZ>
+                                    <NP id="62" level="9" pid="60">
+                                        <NP id="63" level="10" pid="62">
+                                            <DT id="64" level="11" pid="63">a</DT>
+                                            <JJ id="65" level="11" pid="63">government-certified</JJ>
+                                            <NN id="66" level="11" pid="63">training</NN>
+                                            <NN id="67" level="11" pid="63">program</NN>
+                                        </NP>
+                                        <PP id="68" level="10" pid="62">
+                                            <IN id="69" level="11" pid="68">for</IN>
+                                            <NP id="70" level="11" pid="68">
+                                                <DT id="71" level="12" pid="70">the</DT>
+                                                <JJ id="72" level="12" pid="70">young</JJ>
+                                                <NNS id="73" level="12" pid="70">workers</NNS>
+                                            </NP>
+                                        </PP>
+                                    </NP>
+                                </VP>
+                            </S>
+                        </SBAR-ADV-3>
+                    </VP>
+                </VP>
+            </VP>
+            <FULLSTOP id="74" level="3" pid="2">.</FULLSTOP>
+        </S>
+    </S1>
+    <S1 id="1" level="1" pid="0" sentenceId="16">
+        <S id="2" level="2" pid="1">
+            <NP-SBJ id="3" level="3" pid="2">
+                <DT id="4" level="4" pid="3">The</DT>
+                <NN id="5" level="4" pid="3">training</NN>
+                <NN id="6" level="4" pid="3">wage</NN>
+            </NP-SBJ>
+            <VP id="7" level="3" pid="2">
+                <VBZ id="8" level="4" pid="7">covers</VBZ>
+                <ADVP id="9" level="4" pid="7">
+                    <JJ id="10" level="5" pid="9">only</JJ>
+                </ADVP>
+                <NP id="11" level="4" pid="7">
+                    <NP id="12" level="5" pid="11">
+                        <NNS id="13" level="6" pid="12">workers</NNS>
+                    </NP>
+                    <SBAR id="14" level="5" pid="11">
+                        <WHNP-260 id="15" level="6" pid="14">
+                            <WP id="16" level="7" pid="15">who</WP>
+                        </WHNP-260>
+                        <S id="17" level="6" pid="14">
+                            <VP id="20" level="7" pid="17">
+                                <VBP id="21" level="8" pid="20">are</VBP>
+                                <ADJP-PRD id="22" level="8" pid="20">
+                                    <NP-ADV id="23" level="9" pid="22">
+                                        <QP id="24" level="10" pid="23">
+                                            <CD id="25" level="11" pid="24">16</CD>
+                                            <TO id="26" level="11" pid="24">to</TO>
+                                            <CD id="27" level="11" pid="24">19</CD>
+                                        </QP>
+                                        <NNS id="28" level="10" pid="23">years</NNS>
+                                    </NP-ADV>
+                                    <JJ id="29" level="9" pid="22">old</JJ>
+                                </ADJP-PRD>
+                            </VP>
+                        </S>
+                    </SBAR>
+                </NP>
+            </VP>
+            <FULLSTOP id="30" level="3" pid="2">.</FULLSTOP>
+        </S>
+    </S1>
+    <S1 id="1" level="1" pid="0" sentenceId="17">
+        <S id="2" level="2" pid="1">
+            <NP-SBJ id="3" level="3" pid="2">
+                <DT id="4" level="4" pid="3">The</DT>
+                <NNP id="5" level="4" pid="3">White</NNP>
+                <NNP id="6" level="4" pid="3">House</NNP>
+            </NP-SBJ>
+            <ADVP-TMP id="7" level="3" pid="2">
+                <RB id="8" level="4" pid="7">previously</RB>
+            </ADVP-TMP>
+            <VP id="9" level="3" pid="2">
+                <VBD id="10" level="4" pid="9">insisted</VBD>
+                <PP-CLR id="11" level="4" pid="9">
+                    <IN id="12" level="5" pid="11">on</IN>
+                    <NP id="13" level="5" pid="11">
+                        <NP id="14" level="6" pid="13">
+                            <DT id="15" level="7" pid="14">an</DT>
+                            <JJ id="16" level="7" pid="14">unrestricted</JJ>
+                            <JJ id="17" level="7" pid="14">six-month</JJ>
+                            <NN id="18" level="7" pid="14">training</NN>
+                            <NN id="19" level="7" pid="14">wage</NN>
+                        </NP>
+                        <SBAR id="20" level="6" pid="13">
+                            <WHNP-1 id="21" level="7" pid="20">
+                                <WDT id="22" level="8" pid="21">that</WDT>
+                            </WHNP-1>
+                            <S id="23" level="7" pid="20">
+                                <VP id="26" level="8" pid="23">
+                                    <MD id="27" level="9" pid="26">could</MD>
+                                    <VP id="28" level="9" pid="26">
+                                        <VB id="29" level="10" pid="28">be</VB>
+                                        <VP id="30" level="10" pid="28">
+                                            <VBN id="31" level="11" pid="30">paid</VBN>
+                                            <NP id="32" level="11" pid="30"/>
+                                            <NP-TMP id="34" level="11" pid="30">
+                                                <NP id="35" level="12" pid="34">
+                                                    <DT id="36" level="13" pid="35">any</DT>
+                                                    <NN id="37" level="13" pid="35">time</NN>
+                                                </NP>
+                                                <SBAR id="38" level="12" pid="34">
+                                                    <WHADVP-2 id="39" level="13" pid="38"/>
+                                                    <S id="41" level="13" pid="38">
+                                                        <NP-SBJ id="42" level="14" pid="41">
+                                                            <NP id="43" level="15" pid="42">
+                                                                <DT id="44" level="16" pid="43">a</DT>
+                                                                <NN id="45" level="16" pid="43">worker</NN>
+                                                            </NP>
+                                                            <PP id="46" level="15" pid="42">
+                                                                <IN id="47" level="16" pid="46">of</IN>
+                                                                <NP id="48" level="16" pid="46">
+                                                                    <DT id="49" level="17" pid="48">any</DT>
+                                                                    <NN id="50" level="17" pid="48">age</NN>
+                                                                </NP>
+                                                            </PP>
+                                                        </NP-SBJ>
+                                                        <VP id="51" level="14" pid="41">
+                                                            <VBD id="52" level="15" pid="51">took</VBD>
+                                                            <NP id="53" level="15" pid="51">
+                                                                <DT id="54" level="16" pid="53">a</DT>
+                                                                <JJ id="55" level="16" pid="53">new</JJ>
+                                                                <NN id="56" level="16" pid="53">job</NN>
+                                                            </NP>
+                                                            <ADVP-TMP id="57" level="15" pid="51"/>
+                                                        </VP>
+                                                    </S>
+                                                </SBAR>
+                                            </NP-TMP>
+                                        </VP>
+                                    </VP>
+                                </VP>
+                            </S>
+                        </SBAR>
+                    </NP>
+                </PP-CLR>
+            </VP>
+            <FULLSTOP id="59" level="3" pid="2">.</FULLSTOP>
+        </S>
+    </S1>
+    <S1 id="1" level="1" pid="0" sentenceId="18">
+        <S id="2" level="2" pid="1">
+            <NP-SBJ-1 id="3" level="3" pid="2">
+                <NP id="4" level="4" pid="3">
+                    <DT id="5" level="5" pid="4">The</DT>
+                    <NNP id="6" level="5" pid="4">U.S.</NNP>
+                    <NNP id="7" level="5" pid="4">Chamber</NNP>
+                </NP>
+                <PP id="8" level="4" pid="3">
+                    <IN id="9" level="5" pid="8">of</IN>
+                    <NP id="10" level="5" pid="8">
+                        <NNP id="11" level="6" pid="10">Commerce</NNP>
+                    </NP>
+                </PP>
+            </NP-SBJ-1>
+            <COMMA id="12" level="3" pid="2">,</COMMA>
+            <S-ADV id="13" level="3" pid="2">
+                <ADVP-TMP id="16" level="4" pid="13">
+                    <RB id="17" level="5" pid="16">still</RB>
+                </ADVP-TMP>
+                <ADJP-PRD id="18" level="4" pid="13">
+                    <VBN id="19" level="5" pid="18">opposed</VBN>
+                    <PP id="20" level="5" pid="18">
+                        <TO id="21" level="6" pid="20">to</TO>
+                        <NP id="22" level="6" pid="20">
+                            <DT id="23" level="7" pid="22">any</DT>
+                            <NN id="24" level="7" pid="22">mininum-wage</NN>
+                            <NN id="25" level="7" pid="22">increase</NN>
+                        </NP>
+                    </PP>
+                </ADJP-PRD>
+            </S-ADV>
+            <COMMA id="26" level="3" pid="2">,</COMMA>
+            <VP id="27" level="3" pid="2">
+                <VBD id="28" level="4" pid="27">said</VBD>
+                <SBAR id="29" level="4" pid="27">
+                    <S id="31" level="5" pid="29">
+                        <NP-SBJ id="32" level="6" pid="31">
+                            <DT id="33" level="7" pid="32">the</DT>
+                            <NN id="34" level="7" pid="32">compromise</NN>
+                            <NN id="35" level="7" pid="32">plan</NN>
+                            <S id="36" level="7" pid="32">
+                                <VP id="39" level="8" pid="36">
+                                    <TO id="40" level="9" pid="39">to</TO>
+                                    <VP id="41" level="9" pid="39">
+                                        <VB id="42" level="10" pid="41">lift</VB>
+                                        <NP id="43" level="10" pid="41">
+                                            <DT id="44" level="11" pid="43">the</DT>
+                                            <NN id="45" level="11" pid="43">wage</NN>
+                                            <NN id="46" level="11" pid="43">floor</NN>
+                                        </NP>
+                                        <NP-EXT id="47" level="10" pid="41">
+                                            <CD id="48" level="11" pid="47">27</CD>
+                                            <NN id="49" level="11" pid="47">%</NN>
+                                        </NP-EXT>
+                                        <PP-MNR id="50" level="10" pid="41">
+                                            <IN id="51" level="11" pid="50">in</IN>
+                                            <NP id="52" level="11" pid="50">
+                                                <CD id="53" level="12" pid="52">two</CD>
+                                                <NNS id="54" level="12" pid="52">stages</NNS>
+                                            </NP>
+                                        </PP-MNR>
+                                        <PP-TMP id="55" level="10" pid="41">
+                                            <IN id="56" level="11" pid="55">between</IN>
+                                            <NP id="57" level="11" pid="55">
+                                                <NP id="58" level="12" pid="57">
+                                                    <NNP id="59" level="13" pid="58">April</NNP>
+                                                    <CD id="60" level="13" pid="58">1990</CD>
+                                                </NP>
+                                                <CC id="61" level="12" pid="57">and</CC>
+                                                <NP id="62" level="12" pid="57">
+                                                    <NNP id="63" level="13" pid="62">April</NNP>
+                                                    <CD id="64" level="13" pid="62">1991</CD>
+                                                </NP>
+                                            </NP>
+                                        </PP-TMP>
+                                    </VP>
+                                </VP>
+                            </S>
+                        </NP-SBJ>
+                        <LDQ id="65" level="6" pid="31">``</LDQ>
+                        <VP id="66" level="6" pid="31">
+                            <VP id="67" level="7" pid="66">
+                                <MD id="68" level="8" pid="67">will</MD>
+                                <VP id="69" level="8" pid="67">
+                                    <VB id="70" level="9" pid="69">be</VB>
+                                    <ADJP-PRD id="71" level="9" pid="69">
+                                        <JJ id="72" level="10" pid="71">impossible</JJ>
+                                        <SBAR id="73" level="10" pid="71">
+                                            <IN id="74" level="11" pid="73">for</IN>
+                                            <S id="75" level="11" pid="73">
+                                                <NP-SBJ id="76" level="12" pid="75">
+                                                    <JJ id="77" level="13" pid="76">many</JJ>
+                                                    <NNS id="78" level="13" pid="76">employers</NNS>
+                                                </NP-SBJ>
+                                                <VP id="79" level="12" pid="75">
+                                                    <TO id="80" level="13" pid="79">to</TO>
+                                                    <VP id="81" level="13" pid="79">
+                                                        <VB id="82" level="14" pid="81">accommodate</VB>
+                                                    </VP>
+                                                </VP>
+                                            </S>
+                                        </SBAR>
+                                    </ADJP-PRD>
+                                </VP>
+                            </VP>
+                            <CC id="83" level="7" pid="66">and</CC>
+                            <VP id="84" level="7" pid="66">
+                                <MD id="85" level="8" pid="84">will</MD>
+                                <VP id="86" level="8" pid="84">
+                                    <VB id="87" level="9" pid="86">result</VB>
+                                    <PP-CLR id="88" level="9" pid="86">
+                                        <IN id="89" level="10" pid="88">in</IN>
+                                        <NP id="90" level="10" pid="88">
+                                            <NP id="91" level="11" pid="90">
+                                                <NP id="92" level="12" pid="91">
+                                                    <DT id="93" level="13" pid="92">the</DT>
+                                                    <NN id="94" level="13" pid="92">elimination</NN>
+                                                </NP>
+                                                <PP id="95" level="12" pid="91">
+                                                    <IN id="96" level="13" pid="95">of</IN>
+                                                    <NP id="97" level="13" pid="95">
+                                                        <NNS id="98" level="14" pid="97">jobs</NNS>
+                                                    </NP>
+                                                </PP>
+                                                <PP id="99" level="12" pid="91">
+                                                    <IN id="100" level="13" pid="99">for</IN>
+                                                    <NP id="101" level="13" pid="99">
+                                                        <JJ id="102" level="14" pid="101">American</JJ>
+                                                        <NNS id="103" level="14" pid="101">workers</NNS>
+                                                    </NP>
+                                                </PP>
+                                            </NP>
+                                            <CC id="104" level="11" pid="90">and</CC>
+                                            <NP id="105" level="11" pid="90">
+                                                <NP id="106" level="12" pid="105">
+                                                    <JJR id="107" level="13" pid="106">higher</JJR>
+                                                    <NNS id="108" level="13" pid="106">prices</NNS>
+                                                </NP>
+                                                <PP id="109" level="12" pid="105">
+                                                    <IN id="110" level="13" pid="109">for</IN>
+                                                    <NP id="111" level="13" pid="109">
+                                                        <JJ id="112" level="14" pid="111">American</JJ>
+                                                        <NNS id="113" level="14" pid="111">consumers</NNS>
+                                                    </NP>
+                                                </PP>
+                                            </NP>
+                                        </NP>
+                                    </PP-CLR>
+                                </VP>
+                            </VP>
+                        </VP>
+                    </S>
+                </SBAR>
+            </VP>
+            <FULLSTOP id="114" level="3" pid="2">.</FULLSTOP>
+        </S>
+    </S1>
+</DOC>
