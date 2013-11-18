@@ -49,7 +49,8 @@ public class Client {
         for (int i = 0; i < nodeList.getLength(); i++) {
             Node currentNode = nodeList.item(i);
             if (currentNode.getNodeType() == Node.ELEMENT_NODE) {
-                doSomething2(currentNode, "/DOC");
+                //doSomething2(currentNode, "/DOC");
+                doSomething3(currentNode, "/DOC");
             }
         }
         
@@ -102,6 +103,30 @@ public class Client {
             Node currentNode = nodeList.item(i);
             if (currentNode.getNodeType() == Node.ELEMENT_NODE) {
                 doSomething2(currentNode, xPath + "/" + nodeName);
+            }
+        }
+    }
+    
+    public static void doSomething3(Node node, String xPath) {
+        if (node.getNodeName().equals("S1")) {
+            System.out.println(node.getAttributes().getNamedItem("sentenceId").getNodeValue());
+        }
+        
+        String nodeName = node.getNodeName();
+        
+        NodeList nodeList = node.getChildNodes();
+        int n = nodeList.getLength();
+        
+        System.out.println(
+                "S.N.query('"
+                + xPath + "/" + nodeName 
+                + "')"                 
+        );
+ 
+        for (int i = 0; i < nodeList.getLength(); i++) {
+            Node currentNode = nodeList.item(i);
+            if (currentNode.getNodeType() == Node.ELEMENT_NODE) {
+                doSomething3(currentNode, xPath + "/" + nodeName);
             }
         }
     }
