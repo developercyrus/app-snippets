@@ -14,6 +14,11 @@ import org.xml.sax.SAXException;
 
 public class Client {
     public static void main(String[] args) throws ParserConfigurationException, SAXException, IOException {
+        demo1();
+        
+    }
+    
+    public static void demo1() throws ParserConfigurationException, SAXException, IOException {
         String path = Client.class.getResource("document.xml").getFile();
         
         DocumentBuilderFactory docBuilderFactory = DocumentBuilderFactory.newInstance();
