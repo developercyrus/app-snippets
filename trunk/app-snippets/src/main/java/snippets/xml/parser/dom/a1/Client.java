@@ -75,7 +75,6 @@ public class Client {
         
     }
     
-    
     public static void doSomething(Node node) {        
         System.out.println(node.getNodeName());
         
