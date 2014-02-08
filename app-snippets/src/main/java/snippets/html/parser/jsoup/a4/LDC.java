@@ -23,11 +23,17 @@ public class LDC {
             String link = links.get(i).attr("href");
             Document page = Jsoup.parse(new URL("http://catalog.ldc.upenn.edu/" + link), 60000);
             String price = page.select("div.section > table > tbody > tr:contains(Non-member Fee)").text();
+            String priceFormatted = price.substring(price.indexOf(":")+2, price.length());
             String title = page.select("div.section > h1").text();
+                                 
+            System.out.println("http://catalog.ldc.upenn.edu/" + link + "\t" + title + "\t" + priceFormatted);                           
+                        
+            /*
             if (price.contains("$0")) {                
                 System.out.println("http://catalog.ldc.upenn.edu/" + link + "\t" + title);            
                 //System.out.println(price);   
             }
+            */
         }  
     }
     
