@@ -1,4 +1,4 @@
-package snippets.jdk.awt.a1;
+package snippets.jdk.awt.graphics2d.a1;
 
 import java.awt.Graphics2D;
 import java.awt.image.BufferedImage;
