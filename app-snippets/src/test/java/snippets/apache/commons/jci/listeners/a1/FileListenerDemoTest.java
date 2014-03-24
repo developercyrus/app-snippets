@@ -14,7 +14,7 @@ public class FileListenerDemoTest {
 
     @Test
     public void test() throws IOException, InterruptedException {
-        String path = this.getClass().getResource("").getFile() + "result.log";
+        String path = this.getClass().getResource("").getFile() + "file.txt";
         
         FileListenerDemo fl = new FileListenerDemo(false);
         fl.run(path);

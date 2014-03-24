@@ -19,5 +19,6 @@ public class UnprotectorTest {
         String actual = p.unlock(path, password);
         
         assertEquals(expected, actual);
+        
     }
 }
