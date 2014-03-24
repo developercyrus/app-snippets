@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
 "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
-<!-- Generated Jun 4, 2013 3:00:19 AM by Hibernate Tools 3.2.4.GA -->
+<!-- Generated Mar 24, 2014 12:02:11 AM by Hibernate Tools 3.2.4.GA -->
 <hibernate-mapping>
     <class name="snippets.framework.orm.hibernate.hibernate3.maven.plugin.a1.generated.Person" table="person"
     catalog="snippets_framework_orm_hibernate_hibernate3_maven_plugin_a1">
