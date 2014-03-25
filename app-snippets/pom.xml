@@ -15,7 +15,9 @@
             
         2.  It can be clean/ test by maven version 2.2.1/ 3
         
-        3.  For jdk1.7, it requires to copy two files, tzmappings and currency.data from $JAVA_HOME\jre\lib to $JAVA_HOME\lib                
+        3.  For jdk1.7, it requires to copy two files, tzmappings and currency.data from $JAVA_HOME\jre\lib to $JAVA_HOME\lib  
+        
+        4.  For jdk1.7, it requires "Java Cryptography Extension (JCE) Unlimited Strength Jurisdiction Policy Files 7", and place "local_policy.jar" and "US_export_policy.jar" in C:\jdk\jdk1.7.0_07\jre\lib             
     -->
     
     <properties>
