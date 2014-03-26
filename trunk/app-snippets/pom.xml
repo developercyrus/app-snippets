@@ -143,7 +143,23 @@
                                             <runOnIncremental>false</runOnIncremental>  
                                         </execute>                                            
                                     </action>
-                                </pluginExecution>                                     
+                                </pluginExecution>   
+                                
+                                <pluginExecution>
+                                    <pluginExecutionFilter>
+                                        <groupId>org.jacoco</groupId>
+                                        <artifactId>jacoco-maven-plugin</artifactId>
+                                        <versionRange>[0.6.5.201403032054]</versionRange>
+                                        <goals>
+                                            <goal>prepare-agent</goal>
+                                        </goals>
+                                    </pluginExecutionFilter>
+                                    <action>
+                                        <execute>  
+                                            <runOnIncremental>false</runOnIncremental>  
+                                        </execute>                                            
+                                    </action>
+                                </pluginExecution>                                        
                                 
                             </pluginExecutions>
                         </lifecycleMappingMetadata>
@@ -354,7 +370,7 @@
             </plugin>
         
         
-             <plugin>
+            <plugin>
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>hibernate3-maven-plugin</artifactId>
                 <version>2.2</version>
@@ -585,7 +601,8 @@
                     <outputEncoding>UTF-8</outputEncoding>
                     <!-- every jUnit test in new JVM instance (fork) in serial mode, i.e. one by one.  -->
                     <forkMode>always</forkMode> 
-                    <argLine>-Dfile.encoding=UTF-8 -Xmx1024m -Xms1024m</argLine>
+                    <argLine>-Dfile.encoding=UTF-8 -Xmx1024m -Xms1024m ${surefireArgLine}</argLine>
+                    
                     <systemProperties>
                         <property>
                             <name>server.username</name>
@@ -602,6 +619,47 @@
                     </systemProperties>
                 </configuration>
             </plugin>
+            
+            
+            
+            <!-- 
+                    1. run "mvn package", to generate a Emlemma report, in the format of jacoco-unit.exec" 
+                    2. import the report into Eclipse, and the testing code coverage
+            -->
+            
+            <plugin>
+                <groupId>org.jacoco</groupId>
+                <artifactId>jacoco-maven-plugin</artifactId>
+                <version>0.6.5.201403032054</version>
+                <executions>
+                    <!--
+                       Prepares the property pointing to the JaCoCo runtime agent which
+                       is passed as VM argument when Maven the Surefire plugin is executed.
+                    -->
+                    <execution>
+                        <id>pre-unit-test</id>
+                        <goals>
+                            <goal>prepare-agent</goal>
+                        </goals>
+                        <configuration>
+                            <destFile>${basedir}/target/coverage-reports/jacoco-unit.exec</destFile>
+                            <propertyName>surefireArgLine</propertyName>
+                        </configuration>
+                    </execution>
+                    <!--
+                       Ensures that the code coverage report for unit tests is created after 
+                       unit tests have been run.
+                    -->
+                    <execution>
+                        <id>post-unit-test</id>
+                        <phase>prepare-package</phase>
+                        <goals>
+                            <goal>report</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+            
             
             
             <!-- prepare-package -->
