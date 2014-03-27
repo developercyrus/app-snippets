@@ -261,7 +261,8 @@
                                 <!-- 
                                     it throws the following error, unresolved
                                     
-                                    Could not load file or assembly ‘Microsoft.Web.Diagnostics, Version=7.9.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35′ or one of its dependencies. The system cannot find the file specified.
+                                    1. Could not load file or assembly ‘Microsoft.Web.Diagnostics, Version=7.9.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35′ or one of its dependencies. The system cannot find the file specified.
+                                    2. There is a duplicate scriptResourceHandler section defined, reference: http://blogs.msdn.com/b/gaurav/archive/2013/10/01/there-is-a-duplicate-scriptresourcehandler-section-defined.aspx
                                 -->
                                 <!-- 
                                 <exec executable="${basedir}/src/main/resources/snippets/jee/jaxws/maven/plugin/a2/iisexpress/iisexpress.exe" spawn="true">
