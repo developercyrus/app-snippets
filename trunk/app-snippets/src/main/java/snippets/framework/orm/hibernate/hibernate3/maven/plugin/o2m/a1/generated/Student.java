@@ -1,5 +1,5 @@
 package snippets.framework.orm.hibernate.hibernate3.maven.plugin.o2m.a1.generated;
-// Generated Mar 26, 2014 11:05:11 PM by Hibernate Tools 3.2.4.GA
+// Generated Mar 27, 2014 11:54:08 PM by Hibernate Tools 3.2.4.GA
 
 
 import java.util.HashSet;
