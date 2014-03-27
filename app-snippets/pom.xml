@@ -161,6 +161,40 @@
                                     </action>
                                 </pluginExecution>                                        
                                 
+                                <!-- can't use exec-maven-plugin, because it doesn't fork in a separate process, and block the main build -->
+                                <!-- 
+                                <pluginExecution>
+                                    <pluginExecutionFilter>
+                                        <groupId>org.codehaus.mojo</groupId>
+                                        <artifactId>exec-maven-plugin</artifactId>
+                                        <versionRange>[1.2.1]</versionRange>
+                                        <goals>
+                                            <goal>exec</goal>
+                                        </goals>
+                                    </pluginExecutionFilter>
+                                    <action>
+                                        <execute>  
+                                            <runOnIncremental>false</runOnIncremental>  
+                                        </execute>                                            
+                                    </action>
+                                </pluginExecution>  
+                                -->           
+                                <pluginExecution>
+                                    <pluginExecutionFilter>
+                                        <groupId>org.apache.maven.plugins</groupId>
+                                        <artifactId>maven-antrun-plugin</artifactId>
+                                        <versionRange>[1.7]</versionRange>
+                                        <goals>
+                                            <goal>run</goal>
+                                        </goals>
+                                    </pluginExecutionFilter>
+                                    <action>
+                                        <execute>  
+                                            <runOnIncremental>false</runOnIncremental>  
+                                        </execute>                                            
+                                    </action>
+                                </pluginExecution>  
+                                
                             </pluginExecutions>
                         </lifecycleMappingMetadata>
                     </configuration>
@@ -171,7 +205,7 @@
     
         <plugins>
         
-            <!-- validate -->
+            <!-- validate -->            
             <plugin>
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>buildnumber-maven-plugin</artifactId>
@@ -212,7 +246,43 @@
         
             
         
-            <!-- initialize -->
+            <!-- initialize -->            
+            <plugin>
+                <artifactId>maven-antrun-plugin</artifactId>
+                <groupId>org.apache.maven.plugins</groupId>
+                <version>1.7</version>
+                <executions>
+                    <execution>
+                        <id>launch-iis-express</id>
+                        <phase>initialize</phase>
+                        <configuration>
+                            <target>
+                                <echo message="${basedir}/src/main/resources/snippets/jee/jaxws/maven/plugin/a2/iis_root" />
+                                <!-- 
+                                    it throws the following error, unresolved
+                                    
+                                    Could not load file or assembly ‘Microsoft.Web.Diagnostics, Version=7.9.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35′ or one of its dependencies. The system cannot find the file specified.
+                                -->
+                                <!-- 
+                                <exec executable="${basedir}/src/main/resources/snippets/jee/jaxws/maven/plugin/a2/iisexpress/iisexpress.exe" spawn="true">
+                                    <arg value="/path:${basedir}/src/main/resources/snippets/jee/jaxws/maven/plugin/a2/iis_root" />
+                                    <arg value="/port:8181" />
+                                </exec>
+                                -->
+
+                                <exec executable="C:\Program Files (x86)\IIS Express\iisexpress.exe" spawn="true">
+                                    <arg value="/path:${basedir}/src/main/resources/snippets/jee/jaxws/maven/plugin/a2/iis_root" />  
+                                    <arg value="/port:8181" />                                  
+                                </exec>
+                            </target>
+                        </configuration>
+                        <goals>
+                            <goal>run</goal>
+                        </goals>
+                   </execution>
+               </executions>
+            </plugin>
+            
             <!-- depends on zwamp which is a portable MySQL -->
             <plugin>
                 <groupId>org.codehaus.mojo</groupId>
@@ -324,7 +394,37 @@
                 </executions>
             </plugin>
         
-        
+            
+            <!-- can't use exec-maven-plugin, because it doesn't fork in a separate process, and block the main build -->
+            <!--
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>exec-maven-plugin</artifactId>
+                <version>1.2.1</version>
+                <executions>
+                    <execution>
+                        <id>launch-iis-express</id>
+                        <goals>
+                            <goal>exec</goal>
+                        </goals>
+                        <phase>initialize</phase>
+                        <configuration>
+                            <executable>${basedir}/src/main/resources/snippets/jee/jaxws/maven/plugin/a2/iisexpress/iisexpress.exe</executable>
+                             <arguments>
+                                <argument>/path:${basedir}/src/main/resources/snippets/jee/jaxws/maven/plugin/a2/iis_root</argument>
+                                <argument>/port:8181</argument>
+                            </arguments>
+                            <fork>true</fork>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+            -->
+            
+            
+            
+            
+            
             <!-- generate-sources -->
             <plugin>
                 <groupId>org.jvnet.jaxb2.maven2</groupId>
@@ -494,7 +594,7 @@
                 <groupId>org.jvnet.jax-ws-commons</groupId>
                 <artifactId>jaxws-maven-plugin</artifactId>
                 <version>2.2</version>
-                 <executions>
+                <executions>
                     <execution>
                         <phase>generate-sources</phase>
                         <goals>
@@ -508,9 +608,33 @@
                 <configuration>
                     <wsdlUrls>
                         <wsdlUrl>http://www.webservicex.net/CurrencyConvertor.asmx?WSDL</wsdlUrl>                        
-                    </wsdlUrls>
-                    
+                    </wsdlUrls>                    
                     <packageName>snippets.jee.jaxws.maven.plugin.a1.stub</packageName>                  
+                    <bindingDirectory>${basedir}/src/main/java</bindingDirectory>
+                    <sourceDestDir>${basedir}/src/main/java</sourceDestDir>
+                </configuration>
+            </plugin>
+            
+            <plugin>
+                <groupId>org.jvnet.jax-ws-commons</groupId>
+                <artifactId>jaxws-maven-plugin</artifactId>
+                <version>2.2</version>
+                <executions>
+                    <execution>
+                        <phase>generate-sources</phase>
+                        <goals>
+                            <goal>wsimport</goal>
+                        </goals>
+                        <configuration>
+                            <bindingDirectory>${basedir}/src/main/java</bindingDirectory>
+                        </configuration>                  
+                    </execution>
+                </executions>
+                <configuration>
+                    <wsdlUrls>
+                        <wsdlUrl>http://localhost:8181/Service1.asmx?wsdl</wsdlUrl>                        
+                    </wsdlUrls>                    
+                    <packageName>snippets.jee.jaxws.maven.plugin.a2.stub</packageName>                  
                     <bindingDirectory>${basedir}/src/main/java</bindingDirectory>
                     <sourceDestDir>${basedir}/src/main/java</sourceDestDir>
                 </configuration>
