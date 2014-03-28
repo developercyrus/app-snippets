@@ -256,25 +256,27 @@
                         <id>launch-iis-express</id>
                         <phase>initialize</phase>
                         <configuration>
-                            <target>
-                                <echo message="${basedir}/src/main/resources/snippets/jee/jaxws/maven/plugin/a2/iis_root" />
+                            <target>                                
                                 <!-- 
-                                    it throws the following error, unresolved
-                                    
+                                    it throws the following error, unresolved                                   
                                     1. Could not load file or assembly ‘Microsoft.Web.Diagnostics, Version=7.9.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35′ or one of its dependencies. The system cannot find the file specified.
                                     2. There is a duplicate scriptResourceHandler section defined, reference: http://blogs.msdn.com/b/gaurav/archive/2013/10/01/there-is-a-duplicate-scriptresourcehandler-section-defined.aspx
                                 -->
-                                <!-- 
+                                                                  
+                                <echo message="${basedir}/src/main/resources/snippets/jee/jaxws/maven/plugin/a2/iis_root" /> 
                                 <exec executable="${basedir}/src/main/resources/snippets/jee/jaxws/maven/plugin/a2/iisexpress/iisexpress.exe" spawn="true">
                                     <arg value="/path:${basedir}/src/main/resources/snippets/jee/jaxws/maven/plugin/a2/iis_root" />
                                     <arg value="/port:8181" />
+                                    <arg value="/clr:v4.0" />
                                 </exec>
-                                -->
-
+                                
+                                <!-- 
+                                <echo message="${basedir}\src\main\resources\snippets\jee\jaxws\maven\plugin\a2\iis_root" /> 
                                 <exec executable="C:\Program Files (x86)\IIS Express\iisexpress.exe" spawn="true">
-                                    <arg value="/path:${basedir}/src/main/resources/snippets/jee/jaxws/maven/plugin/a2/iis_root" />  
-                                    <arg value="/port:8181" />                                  
+                                    <arg value="/path:${basedir}\src\main\resources\snippets\jee\jaxws\maven\plugin\a2\iis_root" />  
+                                    <arg value="/port:8181" />                                                                       
                                 </exec>
+                                --> 
                             </target>
                         </configuration>
                         <goals>
