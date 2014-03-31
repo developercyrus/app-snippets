@@ -11,6 +11,7 @@ import org.hibernate.criterion.Criterion;
 import org.hibernate.criterion.Restrictions;
 import org.junit.Test;
 
+import snippets.framework.orm.hibernate.hibernate3.maven.plugin.a1.PersonDao;
 import snippets.framework.orm.hibernate.hibernate3.maven.plugin.a1.generated.Person;
 
 public class PersonDaoTest {

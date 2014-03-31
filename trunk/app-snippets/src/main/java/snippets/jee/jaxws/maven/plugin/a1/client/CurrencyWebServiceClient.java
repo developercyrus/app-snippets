@@ -1,4 +1,4 @@
-package snippets.jee.jaxws.maven.plugin.a1;
+package snippets.jee.jaxws.maven.plugin.a1.client;
 
 import snippets.jee.jaxws.maven.plugin.a1.stub.Currency;
 import snippets.jee.jaxws.maven.plugin.a1.stub.CurrencyConvertor;

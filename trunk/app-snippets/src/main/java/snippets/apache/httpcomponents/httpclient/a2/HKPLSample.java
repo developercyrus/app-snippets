@@ -20,10 +20,8 @@ import org.apache.http.impl.client.BasicResponseHandler;
 import org.apache.http.impl.client.DefaultHttpClient;
 import org.apache.http.message.BasicNameValuePair;
 import org.apache.http.protocol.HTTP;
-import org.apache.http.util.EntityUtils;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
-import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
 public class HKPLSample {
@@ -46,7 +44,8 @@ public class HKPLSample {
         StatusLine statusLine = response.getStatusLine();
         int statusCode = statusLine.getStatusCode();
         System.out.println("login status code: " + statusCode);
-        EntityUtils.consume(entity);
+        //EntityUtils.consume(entity);
+        entity.consumeContent();
         
 
         CookieStore cookieStore = client.getCookieStore();
@@ -79,7 +78,8 @@ public class HKPLSample {
         StatusLine statusLine = response.getStatusLine();
         int statusCode = statusLine.getStatusCode();
         System.out.println("login status code: " + statusCode);
-        EntityUtils.consume(entity);
+        //EntityUtils.consume(entity);
+        entity.consumeContent();
         
         CookieStore cookieStore = client.getCookieStore();
         List<Cookie> cookies = cookieStore.getCookies();

@@ -1,4 +1,4 @@
-package snippets.jee.jaxws.maven.plugin.a2;
+package snippets.jee.jaxws.maven.plugin.a2.client;
 
 import snippets.jee.jaxws.maven.plugin.a2.stub.Service1;
 import snippets.jee.jaxws.maven.plugin.a2.stub.Service1Soap;
