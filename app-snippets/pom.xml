@@ -1523,6 +1523,20 @@
         </dependency>
                     
          
+        <!-- 
+            1. embedded jndi server 
+            2. local jar
+            3. reference: https://github.com/gensan/junit-jndi
+        -->
+        <dependency>
+            <groupId>junit-jndi</groupId>
+            <artifactId>junit-jndi</artifactId>
+            <version>1.0-SNAPSHOT</version>
+            <scope>system</scope>
+            <systemPath>${basedir}/src/main/lib/snippets/jee/jndi/junitjndi/a1/server/junit-jndi-1.0-SNAPSHOT.jar</systemPath>
+        </dependency> 
+             
+         
         <dependency>
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-jexl</artifactId>
