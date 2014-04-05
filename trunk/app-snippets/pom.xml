@@ -318,25 +318,29 @@
                         <artifactId>mysql-connector-java</artifactId>
                         <version>5.1.9</version>
                     </dependency>
+                    <dependency>
+                        <groupId>postgresql</groupId>
+                        <artifactId>postgresql</artifactId>
+                        <version>9.1-901.jdbc4</version>
+                    </dependency>
                 </dependencies>
-                <configuration>
-                    <driver>com.mysql.jdbc.Driver</driver>
-                    <url>jdbc:mysql://localhost:3306</url>
-                    <username>root</username>
-                    <password></password>
-                    <settingsKey>sensibleKey</settingsKey>
-                    <skip>${maven.test.skip}</skip>
-                </configuration>
-
+                
+            
+                
                 <executions>
                     <execution>
-                        <id>drop-db-before-test-if-any</id>
+                        <id>drop-db-before-test-if-any (mysql)</id>
                         <phase>initialize</phase>
                         <goals>
                             <goal>execute</goal>
                         </goals>
                         <configuration>
+                            <driver>com.mysql.jdbc.Driver</driver>
                             <url>jdbc:mysql://localhost:3306</url>
+                            <username>root</username>
+                            <password></password>
+                            <settingsKey>sensibleKey</settingsKey>
+                            <skip>${maven.test.skip}</skip>
                             <autocommit>true</autocommit>
                             <sqlCommand>                                                                
                                 drop database if exists snippets_framework_mock_mockito_a2;
@@ -345,21 +349,48 @@
                                 drop database if exists snippets_framework_orm_hibernate_hibernate3_maven_plugin_o2m_a1;
                                 drop database if exists snippets_jee_jpa_hibernate_a1;
                                 drop database if exists snippets_jee_jpa_openjpa_a1;
+                                drop database if exists snippets_jee_jta_atomikos_a1;  
                                 drop database if exists snippets_jdk_jdbc_a1;
-                                drop database if exists snippets_jdk_jdbc_proxy_logging_a1;                                
+                                drop database if exists snippets_jdk_jdbc_proxy_logging_a1;                                                             
                             </sqlCommand>
                             <onError>continue</onError>
                         </configuration>
                     </execution>
                     
                     <execution>
-                        <id>create-db</id>
+                        <id>drop-db-before-test-if-any (postgresql)</id>
                         <phase>initialize</phase>
                         <goals>
                             <goal>execute</goal>
                         </goals>
                         <configuration>
+                            <driver>org.postgresql.Driver</driver>
+                            <url>jdbc:postgresql://localhost:5432</url>
+                            <username>postgres</username>
+                            <password></password>
+                            <settingsKey>sensibleKey</settingsKey>
+                            <skip>${maven.test.skip}</skip>
+                            <autocommit>true</autocommit>
+                            <sqlCommand>                                                                
+                                drop database snippets_jee_jta_atomikos_a1;                            
+                            </sqlCommand>
+                            <onError>continue</onError>
+                        </configuration>
+                    </execution>
+
+                    <execution>
+                        <id>create-db (mysql)</id>
+                        <phase>initialize</phase>
+                        <goals>
+                            <goal>execute</goal>
+                        </goals>
+                        <configuration>
+                            <driver>com.mysql.jdbc.Driver</driver>
                             <url>jdbc:mysql://localhost:3306</url>
+                            <username>root</username>
+                            <password></password>
+                            <settingsKey>sensibleKey</settingsKey>
+                            <skip>${maven.test.skip}</skip>
                             <autocommit>true</autocommit>
                             <sqlCommand>                                
                                 create database if not exists snippets_framework_mock_mockito_a2;
@@ -368,19 +399,46 @@
                                 create database if not exists snippets_framework_orm_hibernate_hibernate3_maven_plugin_o2m_a1;                                         
                                 create database if not exists snippets_jee_jpa_hibernate_a1;
                                 create database if not exists snippets_jee_jpa_openjpa_a1;
+                                create database if not exists snippets_jee_jta_atomikos_a1;    
                                 create database if not exists snippets_jdk_jdbc_a1;  
-                                create database if not exists snippets_jdk_jdbc_proxy_logging_a1;                          
+                                create database if not exists snippets_jdk_jdbc_proxy_logging_a1;                                                        
                             </sqlCommand>
                         </configuration>
                     </execution>
-
+                    
                     <execution>
-                        <id>create-schema</id>
+                        <id>create-db (postgresql)</id>
                         <phase>initialize</phase>
                         <goals>
                             <goal>execute</goal>
                         </goals>
                         <configuration>
+                            <driver>org.postgresql.Driver</driver>
+                            <url>jdbc:postgresql://localhost:5432</url>
+                            <username>postgres</username>
+                            <password></password>
+                            <settingsKey>sensibleKey</settingsKey>
+                            <skip>${maven.test.skip}</skip>
+                            <autocommit>true</autocommit>
+                            <sqlCommand>                                
+                                create database snippets_jee_jta_atomikos_a1;                         
+                            </sqlCommand>
+                        </configuration>
+                    </execution>
+                                      
+                    <execution>
+                        <id>create-schema (mysql)</id>
+                        <phase>initialize</phase>
+                        <goals>
+                            <goal>execute</goal>
+                        </goals>
+                        <configuration>
+                            <driver>com.mysql.jdbc.Driver</driver>
+                            <url>jdbc:mysql://localhost:3306</url>
+                            <username>root</username>
+                            <password></password>
+                            <settingsKey>sensibleKey</settingsKey>
+                            <skip>${maven.test.skip}</skip>
                             <autocommit>true</autocommit>
                             <srcFiles>
                                 <srcFile>src/main/sql/snippets/framework/mock/mockito/a2/create-schema.sql</srcFile>
@@ -389,11 +447,60 @@
                                 <srcFile>src/main/sql/snippets/framework/orm/hibernate/hibernate3/maven/plugin/o2m/a1/create-schema.sql</srcFile>
                                 <srcFile>src/main/sql/snippets/jee/jpa/hibernate/a1/create-schema.sql</srcFile>
                                 <srcFile>src/main/sql/snippets/jee/jpa/openjpa/a1/create-schema.sql</srcFile>
+                                <srcFile>src/main/sql/snippets/jee/jta/atomikos/a1/mysql/create-schema.sql</srcFile>                                
                                 <srcFile>src/main/sql/snippets/jdk/jdbc/a1/create-schema.sql</srcFile>
                             </srcFiles>
                         </configuration>
                     </execution>
+                    
+                    <execution>
+                        <id>create-schema (postgresql)</id>
+                        <phase>initialize</phase>
+                        <goals>
+                            <goal>execute</goal>
+                        </goals>
+                        <configuration>
+                            <driver>org.postgresql.Driver</driver>
+                            <url>jdbc:postgresql://localhost:5432/snippets_jee_jta_atomikos_a1</url>
+                            <username>postgres</username>
+                            <password></password>
+                            <settingsKey>sensibleKey</settingsKey>
+                            <skip>${maven.test.skip}</skip>
+                            <autocommit>true</autocommit>
+                            <srcFiles>
+                                <srcFile>src/main/sql/snippets/jee/jta/atomikos/a1/postgresql/create-schema.sql</srcFile>                                
+                            </srcFiles>
+                        </configuration>
+                    </execution>
+                    
 
+                    
+                    <execution>
+                        <id>create-data (mysql)</id>
+                        <phase>process-test-resources</phase>
+                        <goals>
+                            <goal>execute</goal>
+                        </goals>
+                        <configuration>
+                            <driver>com.mysql.jdbc.Driver</driver>
+                            <url>jdbc:mysql://localhost:3306</url>
+                            <username>root</username>
+                            <password></password>
+                            <settingsKey>sensibleKey</settingsKey>
+                            <autocommit>true</autocommit>
+                            <srcFiles>
+                                <srcFile>src/test/sql/snippets/framework/mock/mockito/a2/insert-record.sql</srcFile>
+                                <srcFile>src/test/sql/snippets/framework/orm/hibernate/a1/insert-record.sql</srcFile>
+                                <srcFile>src/test/sql/snippets/framework/orm/hibernate/hibernate3/maven/plugin/a1/insert-record.sql</srcFile>                                              
+                                <srcFile>src/test/sql/snippets/jee/jpa/hibernate/a1/insert-record.sql</srcFile>
+                                <srcFile>src/test/sql/snippets/jee/jpa/openjpa/a1/insert-record.sql</srcFile>
+                                <srcFile>src/test/sql/snippets/jdk/jdbc/a1/insert-record.sql</srcFile>
+                            </srcFiles>
+                        </configuration>
+                                               
+                    </execution>
+                    
+                    <!-- 
                     <execution>
                         <id>create-data</id>
                         <phase>process-test-resources</phase>
@@ -414,11 +521,13 @@
                             </fileset>
                         </configuration>
                     </execution>
-
+                    -->
+                    
                 </executions>
             </plugin>
         
             
+ 
             <!-- can't use exec-maven-plugin, because it doesn't fork in a separate process, and block the main build -->
             <!--
             <plugin>
@@ -1537,6 +1646,23 @@
         </dependency> 
              
          
+        <!-- jta implementation --> 
+        <dependency>
+            <groupId>com.atomikos</groupId>
+            <artifactId>transactions-jta</artifactId>
+            <version>3.9.3</version>
+        </dependency>
+        
+        <dependency>
+            <groupId>com.atomikos</groupId>
+            <artifactId>transactions-jdbc</artifactId>
+            <version>3.9.3</version>
+        </dependency>
+             
+         
+         
+         
+         
         <dependency>
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-jexl</artifactId>
@@ -1549,6 +1675,16 @@
             <artifactId>mysql-connector-java</artifactId>
             <version>5.1.9</version>
         </dependency>
+        
+        
+        <dependency>
+            <groupId>postgresql</groupId>
+            <artifactId>postgresql</artifactId>
+            <version>9.1-901.jdbc4</version>
+        </dependency>
+            
+        
+        
         <dependency>
             <groupId>net.sf.json-lib</groupId>
             <artifactId>json-lib</artifactId>
@@ -1589,14 +1725,20 @@
 			<version>2.11.0-RC1</version>
 		</dependency>
             		                
+                     
+                     
+                     
                                
-
+        <dependency>
+            <groupId>javax.transaction</groupId>
+            <artifactId>jta</artifactId>
+            <version>1.1</version>
+        </dependency>            
         <dependency>
             <groupId>javax.mail</groupId>
             <artifactId>mail</artifactId>
             <version>1.4</version>
-        </dependency>
-            
+        </dependency>            
         <dependency>
             <groupId>javax.validation</groupId>
             <artifactId>validation-api</artifactId>
