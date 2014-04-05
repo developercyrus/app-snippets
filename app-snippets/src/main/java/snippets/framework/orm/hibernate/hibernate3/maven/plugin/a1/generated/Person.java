@@ -1,5 +1,5 @@
 package snippets.framework.orm.hibernate.hibernate3.maven.plugin.a1.generated;
-// Generated Apr 3, 2014 4:30:15 PM by Hibernate Tools 3.2.4.GA
+// Generated Apr 6, 2014 12:08:26 AM by Hibernate Tools 3.2.4.GA
 
 
 
