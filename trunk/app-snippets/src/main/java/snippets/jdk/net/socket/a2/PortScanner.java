@@ -11,39 +11,41 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.Future;
 
 public class PortScanner {
-    public static void main(final String... args) throws InterruptedException, ExecutionException {
-        final ExecutorService es = Executors.newFixedThreadPool(20);
-        final String ip = "10.0.26.85";
-        final int timeout = 500;
-        final List<Future<Boolean>> futures = new ArrayList<>();
-        for (int port = 1; port <= 65535; port++) {
+    List<Integer> ports = new ArrayList<Integer>(); 
+    
+    public void start(String ip, int startPort, int endPort) throws InterruptedException, ExecutionException {
+        ExecutorService es = Executors.newFixedThreadPool(20);
+        int timeout = 200;
+        final List<Future<ScanResult>> futures = new ArrayList<>();
+        for (int port=startPort; port<=endPort; port++) {
             futures.add(portIsOpen(es, ip, port, timeout));
         }
         es.shutdown();
-        int openPorts = 0;
-        for (final Future<Boolean> f : futures) {
-            if (f.get()) {
-                openPorts++;
+        for (final Future<ScanResult> f : futures) {
+            if (f.get().isOpen()) {
+                ports.add(f.get().getPort());
+                System.out.println(f.get().getPort() +  " is open");                
             }
-        }
-        System.out.println("There are " + openPorts + " open ports on host " + ip + " (probed with a timeout of " + timeout + "ms)");
+        }        
     }
     
-    public static Future<Boolean> portIsOpen(final ExecutorService es, final String ip, final int port, final int timeout) {
-        return es.submit(new Callable<Boolean>() {
+    public Future<ScanResult> portIsOpen(ExecutorService es, final String ip, final int port, final int timeout) {
+        return es.submit(new Callable<ScanResult>() {
             @Override 
-            public Boolean call() {
+            public ScanResult call() {                
                 try {
                     Socket socket = new Socket();
                     socket.connect(new InetSocketAddress(ip, port), timeout);
                     socket.close();
-                    return true;
+                    return new ScanResult(port, true);
                 } catch (Exception ex) {
-                    return false;
-                }
+                    return new ScanResult(port, false);
+                }                                
             }
         });
     }
     
-    
+    public Integer[] getPorts() {
+        return ports.toArray(new Integer[ports.size()]);
+    }
 }
