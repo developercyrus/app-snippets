@@ -3,7 +3,7 @@ package javax.sound.sampled.a1;
 import javax.sound.sampled.AudioFileFormat.Type;
 import javax.sound.sampled.AudioFormat;
 
-public class Testss {
+public class App {
     public static void main(String[] args) throws Exception {
         AudioFormat format = new AudioFormat(8000.0f, 16, 1, true, true);
         MicrophoneRecorder mr = new MicrophoneRecorder(format);  
