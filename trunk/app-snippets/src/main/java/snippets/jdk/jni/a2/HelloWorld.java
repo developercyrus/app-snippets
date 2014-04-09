@@ -18,6 +18,6 @@ public class HelloWorld {
     public static void main(String argv[]) throws IOException {
         HelloWorld h = new HelloWorld();
         String s = h.fromC();
-        System.out.println(s);        
+        System.out.println(s);                
     }
 }
