@@ -862,6 +862,33 @@
             </plugin>
             
             
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-antrun-plugin</artifactId>
+                <version>1.7</version>
+                <executions>
+                    <execution>
+                    <phase>process-classes</phase>
+                    <goals>
+                        <goal>run</goal>
+                    </goals>
+                    <configuration>
+                        <target>
+                           <property name="runtime_classpath" refid="maven.compile.classpath"/>
+                           <exec executable="javah">
+                               <arg value="-cp"/>
+                               <arg value="${runtime_classpath}"/>
+                               <arg value="-d"/>
+                               <arg value="${basedir}/src/main/java/snippets/jdk/jni/a2/header"/>
+                               <arg value="snippets.jdk.jni.a2.HelloWorld"/>
+                           </exec>
+                        </target>
+                    </configuration>
+                   </execution>
+                </executions>
+            </plugin>
+            
+            
             <!-- generate-test-sources -->
             <!-- process-test-sources -->
             <!-- generate-test-resources -->

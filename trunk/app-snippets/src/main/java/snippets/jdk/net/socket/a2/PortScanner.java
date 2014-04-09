@@ -48,4 +48,9 @@ public class PortScanner {
     public Integer[] getPorts() {
         return ports.toArray(new Integer[ports.size()]);
     }
+    
+    public static void main(String[] args) throws InterruptedException, ExecutionException {
+        PortScanner p = new PortScanner();
+        p.start("10.0.26.85", 1, 65535);
+    }
 }
