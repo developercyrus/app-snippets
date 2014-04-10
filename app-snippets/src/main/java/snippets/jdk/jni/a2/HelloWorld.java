@@ -1,7 +1,6 @@
 package snippets.jdk.jni.a2;
 
 import java.io.File;
-import java.io.IOException;
 
 public class HelloWorld {
     native String fromC(); //Make the virtual machine aware of a function defined externally, named "helloFromC"
@@ -15,9 +14,9 @@ public class HelloWorld {
         System.load(lib.getAbsolutePath());        
     }
     
-    public static void main(String argv[]) throws IOException {
+    public static void main(String argv[]) {
         HelloWorld h = new HelloWorld();
         String s = h.fromC();
-        System.out.println(s);                
+        System.out.println(s);                 
     }
 }
