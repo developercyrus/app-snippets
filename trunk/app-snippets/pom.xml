@@ -46,7 +46,6 @@
             <id>mandubian-mvn</id>
             <url>http://mandubian-mvn.googlecode.com/svn/trunk/mandubian-mvn/repository</url>
         </repository>
-
     </repositories>
 
 
@@ -1450,7 +1449,7 @@
             <artifactId>signpost-core</artifactId>
             <version>1.2.1.1</version>
         </dependency>
-            
+                       
 
         <!--  jaxb.properties file is missing from the maven build. -->
         <!-- 
@@ -1470,7 +1469,7 @@
             <systemPath>${basedir}/src/main/lib/snippets/linkedin/linkedin-j.jar</systemPath>
         </dependency> 
          
-
+        
         <dependency>
             <groupId>org.scribe</groupId>
             <artifactId>scribe</artifactId>
@@ -1759,6 +1758,11 @@
 		</dependency>
             		                
                      
+        <dependency>
+            <groupId>org.basex</groupId>
+            <artifactId>basex</artifactId>
+            <version>7.3.1</version>
+        </dependency>
                      
                      
                                
