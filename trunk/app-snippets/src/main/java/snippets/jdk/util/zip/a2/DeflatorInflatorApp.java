@@ -7,7 +7,7 @@ import java.util.zip.DataFormatException;
 import java.util.zip.Deflater;
 import java.util.zip.Inflater;
 
-public class DeflatorApp {
+public class DeflatorInflatorApp {
     public static byte[] compressBytes(String data) throws UnsupportedEncodingException, IOException {
         byte[] input = data.getBytes("UTF-8"); 
         Deflater df = new Deflater();      
@@ -28,7 +28,8 @@ public class DeflatorApp {
         return output;
     }
 
-    public static String extractBytes(byte[] input) throws UnsupportedEncodingException, IOException, DataFormatException {
+    
+    public static String decompressBytes(byte[] input) throws UnsupportedEncodingException, IOException, DataFormatException {
         Inflater ifl = new Inflater();   
         ifl.setInput(input);
 
@@ -57,12 +58,11 @@ public class DeflatorApp {
             System.out.println("Original string: " + text);
 
             byte[] compressedText = compressBytes(text);
-            String extractedText = extractBytes(compressedText);
+            String decompressedText = decompressBytes(compressedText);
 
-            System.out.println("Extracted string: " + extractedText);
+            System.out.println("Extracted string: " + decompressedText);
         }
-        catch (DataFormatException ex)
-        {
+        catch (DataFormatException ex) {
             ex.printStackTrace();
         }
         catch (UnsupportedEncodingException ex)
