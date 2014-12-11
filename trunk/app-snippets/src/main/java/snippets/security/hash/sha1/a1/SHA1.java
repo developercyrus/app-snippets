@@ -19,6 +19,7 @@ public class SHA1 {
         }
         return result;
     }
+    
 
     private static String toHexString(byte[] in) {
         StringBuilder hexString = new StringBuilder();
