@@ -1802,6 +1802,14 @@
         </dependency>
         
    
+   
+        <!-- java http embedded proxy -->
+        <dependency>
+            <groupId>org.littleshoot</groupId>
+            <artifactId>littleproxy</artifactId>
+            <version>1.0.0-beta8</version>
+        </dependency>
+        
                        
                       
                                
