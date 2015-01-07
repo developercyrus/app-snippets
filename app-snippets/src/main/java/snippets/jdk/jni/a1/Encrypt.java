@@ -2,7 +2,7 @@ package snippets.jdk.jni.a1;
 
 public class Encrypt {
     public Encrypt() {
-        String path = this.getClass().getResource("php_mcrypt.dll").getFile(); 
+        String path = this.getClass().getResource("php_mcrypt.dll").getFile(); //32bit dll, unable to resolve yet
         System.out.println(path);
         System.load(path);
     }

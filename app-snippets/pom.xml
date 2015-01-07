@@ -9,15 +9,22 @@
         <connection>scm:svn:https://app-snippets.googlecode.com/svn/</connection>
     </scm>
     
-    <!--   
-        1.  It requires m2e 1.0, which no longer allows lifecycle "execute", 
+    <!-- 
+    
+        1.  It requires 3 portables
+                a) zwamp-1.1.2 for MySQL server
+                b) postgresql9.2.4 for PostgreSQL
+                c) IIS Express
+      
+        2.  It requires m2e 1.0, which no longer allows lifecycle "execute", 
             where old version m2eclipse 0.12 (still sonatype) allows lifecycle "execute"
             
-        2.  It can be clean/ test by maven version 2.2.1/ 3
+        3.  It can be "mvn clean" / "mvn test" by maven version 2.2.1/ 3
         
-        3.  For jdk1.7, it requires to copy two files, tzmappings and currency.data from $JAVA_HOME\jre\lib to $JAVA_HOME\lib  
+        4.  For jdk1.7, it requires to copy two files, tzmappings and currency.data from $JAVA_HOME\jre\lib to $JAVA_HOME\lib  
         
-        4.  For jdk1.7, it requires "Java Cryptography Extension (JCE) Unlimited Strength Jurisdiction Policy Files 7", and place "local_policy.jar" and "US_export_policy.jar" in $JAVA_HOME\jre\lib\security          
+        5.  For jdk1.7, it requires "Java Cryptography Extension (JCE) Unlimited Strength Jurisdiction Policy Files 7", and place "local_policy.jar" and "US_export_policy.jar" in $JAVA_HOME\jre\lib\security
+                  
     -->
     
     <properties>
@@ -1300,7 +1307,16 @@
             <artifactId>commons-codec</artifactId>
             <version>1.10</version>
         </dependency>
-        
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-math3</artifactId>
+            <version>3.4</version>
+        </dependency>    
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-math</artifactId>
+            <version>2.2</version>
+        </dependency>
                                             
         
         <dependency>
@@ -1769,7 +1785,25 @@
             <version>7.3.1</version>
         </dependency>
                      
+                             
+ 
                      
+        <!-- embedded junit for memcached -->                
+        <dependency>
+            <groupId>com.thimbleware.jmemcached</groupId>
+            <artifactId>jmemcached-core</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+        
+        <dependency>
+            <groupId>com.google.code.simple-spring-memcached</groupId>
+            <artifactId>spymemcached</artifactId>
+            <version>2.8.4</version>
+        </dependency>
+        
+   
+                       
+                      
                                
         <dependency>
             <groupId>javax.transaction</groupId>
