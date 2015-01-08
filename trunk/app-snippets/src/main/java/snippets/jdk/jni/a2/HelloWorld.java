@@ -10,7 +10,7 @@ public class HelloWorld {
         String library = "snippets.jdk.jni.a2.HelloWorldFromC"; //dll name without extension
         File lib = new File(path + "/" + System.mapLibraryName(library));
         String archDataModel = System.getProperty("sun.arch.data.model");
-        System.out.println("OS: " + archDataModel + "bit version");
+        //System.out.println("OS: " + archDataModel + "bit version");
         System.load(lib.getAbsolutePath());        
     }
     
