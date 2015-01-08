@@ -1810,9 +1810,16 @@
             <version>1.0.0-beta8</version>
         </dependency>
         
-                       
-                      
-                               
+                                             
+        <!-- external sort by Daniel Lemire http://www.daniel-lemire.com -->                      
+        <dependency>
+            <groupId>com.google.code.externalsortinginjava</groupId>
+            <artifactId>externalsortinginjava</artifactId>
+            <version>0.1.9</version>
+        </dependency>
+                           
+                           
+                                                          
         <dependency>
             <groupId>javax.transaction</groupId>
             <artifactId>jta</artifactId>
