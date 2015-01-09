@@ -1417,6 +1417,13 @@
             <artifactId>jsoup</artifactId>
             <version>1.6.2</version>
         </dependency>
+        
+        <dependency>
+            <groupId>net.sourceforge.htmlcleaner</groupId>
+            <artifactId>htmlcleaner</artifactId>
+            <version>2.10</version>
+        </dependency>
+                
             
         <dependency>
             <groupId>org.jooq</groupId>
