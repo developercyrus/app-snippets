@@ -931,6 +931,10 @@
                             <value>${env.JAVA_HOME}</value>
                         </property>
                     </systemProperties>
+                    
+                    <systemPropertyVariables>
+                        <java.library.path>${env.PATH}$;${basedir}/src/main/lib/snippets/monitor/file/jnotify</java.library.path>
+                    </systemPropertyVariables>
                 </configuration>
             </plugin>
             
@@ -1317,6 +1321,12 @@
             <artifactId>commons-math</artifactId>
             <version>2.2</version>
         </dependency>
+        <dependency>
+            <groupId>commons-io</groupId>
+            <artifactId>commons-io</artifactId>
+            <version>2.4</version>
+        </dependency>
+        
                                             
         
         <dependency>
@@ -1471,13 +1481,7 @@
             <artifactId>svnkit</artifactId>
             <version>1.3.5</version>
         </dependency>
-
-        <dependency>
-            <groupId>oauth.signpost</groupId>
-            <artifactId>signpost-core</artifactId>
-            <version>1.2.1.1</version>
-        </dependency>
-                       
+            
 
         <!--  jaxb.properties file is missing from the maven build. -->
         <!-- 
@@ -1496,7 +1500,22 @@
             <scope>system</scope>
             <systemPath>${basedir}/src/main/lib/snippets/linkedin/linkedin-j.jar</systemPath>
         </dependency> 
+        
+        <dependency>
+            <groupId>oauth.signpost</groupId>
+            <artifactId>signpost-core</artifactId>
+            <version>1.2.1.1</version>
+        </dependency>
          
+         
+        <!-- local jar -->
+        <dependency>
+            <groupId>net.contentobjects.</groupId>
+            <artifactId>jnotify</artifactId>
+            <version>0.94</version>
+            <scope>system</scope>
+            <systemPath>${basedir}/src/main/lib/snippets/monitor/file/jnotify/jnotify-0.94.jar</systemPath>
+        </dependency> 
         
         <dependency>
             <groupId>org.scribe</groupId>
