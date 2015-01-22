@@ -26,8 +26,8 @@ public class Producer implements Runnable {
  
                 data = "data:" + count.incrementAndGet();
                 System.out.println(data + " put into the queue...");
-                if (!queue.offer(data, 2, TimeUnit.SECONDS)) {
-                    System.out.println("failed put data：" + data);
+                if (!queue.offer(data, 1, TimeUnit.SECONDS)) {
+                    System.out.println(data + " failed to put");
                 }
             }
         } catch (InterruptedException e) {
