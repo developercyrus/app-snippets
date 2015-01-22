@@ -18,7 +18,7 @@ public class Consumer implements Runnable {
         boolean isRunning = true;
         try {
             while (isRunning) {
-                String data = queue.poll(2, TimeUnit.SECONDS);
+                String data = queue.poll(1, TimeUnit.SECONDS);
                 if (null != data) {
                     System.out.println(data + " take out from the queue...");
                     Thread.sleep(r.nextInt(2000));
