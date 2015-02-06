@@ -1,4 +1,4 @@
-package snippets.apache.log4j.a1;
+package snippets.apache.log4j.a2;
 
 import java.io.File;
 import java.io.IOException;
@@ -8,19 +8,25 @@ import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 
-public class Main {
-    static Logger logger = Logger.getLogger(Main.class);
+public class LevelChecking {
+    static Logger logger = Logger.getLogger(LevelChecking.class);
 
     public static void main(String[] args) throws IOException {
-        URL propURL = Main.class.getResource("log4j.properties");
+        URL propURL = LevelChecking.class.getResource("log4j.properties");
         String path = new File(propURL.getFile()).getParent();
         System.out.println(path);
         System.setProperty("log4jpath", path);
-             
+        
         PropertyConfigurator.configure(propURL);
 
+        logger.setLevel(Level.ERROR); 
+        if(logger.getLevel().equals(Level.ERROR)) {
+            logger.error("should be logged");
+        }
+        
         logger.setLevel(Level.INFO); 
-        logger.info("Entering application.");
-        logger.info("Exiting application.");                
+        if(logger.getLevel().equals(Level.ERROR)) {
+            logger.error("should not be logged");
+        }
     }
 }
