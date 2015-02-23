@@ -3,6 +3,8 @@ package snippets.security.encrypt.base16.a1;
 import static org.junit.Assert.assertEquals;
 import org.junit.Test;
 
+import snippets.security.encode.base16.a1.Base16Codec;
+
 public class Base16CodecTest {
     
     @Test

@@ -1,4 +1,4 @@
-package snippets.security.encrypt.base64.a1;
+package snippets.security.encode.base64.a1;
 
 import java.net.URLDecoder;
 import java.net.URLEncoder;

@@ -1,4 +1,4 @@
-package snippets.security.encrypt.base16.a1;
+package snippets.security.encode.base16.a1;
 
 public class Base16Codec {
     
